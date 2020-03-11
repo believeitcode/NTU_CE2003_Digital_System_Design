@@ -1,0 +1,1118 @@
+//! **************************************************************************
+// Written by: Map P.49d on Tue Mar 10 16:02:39 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "i_right_b" LOCATE = SITE "N4" LEVEL 1;
+COMP "i_clk" LOCATE = SITE "L15" LEVEL 1;
+COMP "i_reset" LOCATE = SITE "T15" LEVEL 1;
+COMP "i_color<0>" LOCATE = SITE "A10" LEVEL 1;
+COMP "i_color<1>" LOCATE = SITE "D14" LEVEL 1;
+COMP "i_color<2>" LOCATE = SITE "C14" LEVEL 1;
+COMP "i_color<3>" LOCATE = SITE "P15" LEVEL 1;
+COMP "i_color<4>" LOCATE = SITE "P12" LEVEL 1;
+COMP "i_color<5>" LOCATE = SITE "R5" LEVEL 1;
+COMP "TMDS_TX_0_N" LOCATE = SITE "C8" LEVEL 1;
+COMP "TMDS_TX_0_P" LOCATE = SITE "D8" LEVEL 1;
+COMP "TMDS_TX_1_N" LOCATE = SITE "A7" LEVEL 1;
+COMP "TMDS_TX_1_P" LOCATE = SITE "C7" LEVEL 1;
+COMP "TMDS_TX_2_N" LOCATE = SITE "A8" LEVEL 1;
+COMP "TMDS_TX_2_P" LOCATE = SITE "B8" LEVEL 1;
+COMP "TMDS_TX_SDA" LOCATE = SITE "C9" LEVEL 1;
+COMP "TMDS_TX_SCL" LOCATE = SITE "D9" LEVEL 1;
+COMP "i_left_b" LOCATE = SITE "P3" LEVEL 1;
+COMP "i_down_b" LOCATE = SITE "F6" LEVEL 1;
+COMP "o_led<0>" LOCATE = SITE "U18" LEVEL 1;
+COMP "o_led<1>" LOCATE = SITE "M14" LEVEL 1;
+COMP "i_up_b" LOCATE = SITE "P4" LEVEL 1;
+COMP "TMDS_TX_CLK_N" LOCATE = SITE "A6" LEVEL 1;
+COMP "TMDS_TX_CLK_P" LOCATE = SITE "B6" LEVEL 1;
+PIN Inst_FBCtl/Maddsub_n0066_pins<92> = BEL "Inst_FBCtl/Maddsub_n0066" PINNAME
+        CLK;
+PIN Inst_FBCtl/Maddsub_n0069_pins<92> = BEL "Inst_FBCtl/Maddsub_n0069" PINNAME
+        CLK;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[32].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[32].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[32].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[32].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[31].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[31].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[31].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[31].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[30].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[30].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[30].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[30].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[29].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[29].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[29].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[29].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[28].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[28].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[28].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[28].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[27].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[27].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[27].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[27].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[26].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[26].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[26].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[26].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[25].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[25].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[25].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[25].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[24].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[24].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[24].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[24].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[23].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[23].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[23].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[23].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[22].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[22].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[22].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[22].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[21].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[21].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[21].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[21].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[20].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[20].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[20].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[20].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[19].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[19].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[19].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[19].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[18].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[18].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[18].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[18].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+TIMEGRP PCLK = BEL "d4/counter_0" BEL "d4/counter_1" BEL "d4/counter_2" BEL
+        "d4/counter_3" BEL "d4/counter_4" BEL "d4/counter_5" BEL
+        "d4/counter_6" BEL "d4/counter_7" BEL "d4/counter_8" BEL
+        "d4/counter_9" BEL "d4/counter_10" BEL "d4/counter_11" BEL
+        "d4/counter_12" BEL "d4/counter_13" BEL "d4/counter_14" BEL
+        "d4/counter_15" BEL "d4/counter_16" BEL "d4/counter_17" BEL
+        "d4/counter_18" BEL "d4/counter_19" BEL "d4/counter_20" BEL
+        "d4/counter_21" BEL "d3/counter_0" BEL "d3/counter_1" BEL
+        "d3/counter_2" BEL "d3/counter_3" BEL "d3/counter_4" BEL
+        "d3/counter_5" BEL "d3/counter_6" BEL "d3/counter_7" BEL
+        "d3/counter_8" BEL "d3/counter_9" BEL "d3/counter_10" BEL
+        "d3/counter_11" BEL "d3/counter_12" BEL "d3/counter_13" BEL
+        "d3/counter_14" BEL "d3/counter_15" BEL "d3/counter_16" BEL
+        "d3/counter_17" BEL "d3/counter_18" BEL "d3/counter_19" BEL
+        "d3/counter_20" BEL "d3/counter_21" BEL "d2/counter_0" BEL
+        "d2/counter_1" BEL "d2/counter_2" BEL "d2/counter_3" BEL
+        "d2/counter_4" BEL "d2/counter_5" BEL "d2/counter_6" BEL
+        "d2/counter_7" BEL "d2/counter_8" BEL "d2/counter_9" BEL
+        "d2/counter_10" BEL "d2/counter_11" BEL "d2/counter_12" BEL
+        "d2/counter_13" BEL "d2/counter_14" BEL "d2/counter_15" BEL
+        "d2/counter_16" BEL "d2/counter_17" BEL "d2/counter_18" BEL
+        "d2/counter_19" BEL "d2/counter_20" BEL "d2/counter_21" BEL
+        "d1/counter_0" BEL "d1/counter_1" BEL "d1/counter_2" BEL
+        "d1/counter_3" BEL "d1/counter_4" BEL "d1/counter_5" BEL
+        "d1/counter_6" BEL "d1/counter_7" BEL "d1/counter_8" BEL
+        "d1/counter_9" BEL "d1/counter_10" BEL "d1/counter_11" BEL
+        "d1/counter_12" BEL "d1/counter_13" BEL "d1/counter_14" BEL
+        "d1/counter_15" BEL "d1/counter_16" BEL "d1/counter_17" BEL
+        "d1/counter_18" BEL "d1/counter_19" BEL "d1/counter_20" BEL
+        "d1/counter_21" BEL "Inst_DataGen/color_count_30" BEL
+        "Inst_DataGen/color_count_29" BEL "Inst_DataGen/color_count_28" BEL
+        "Inst_DataGen/color_count_27" BEL "Inst_DataGen/color_count_26" BEL
+        "Inst_DataGen/color_count_25" BEL "Inst_DataGen/color_count_24" BEL
+        "Inst_DataGen/color_count_23" BEL "Inst_DataGen/color_count_22" BEL
+        "Inst_DataGen/color_count_21" BEL "Inst_DataGen/color_count_20" BEL
+        "Inst_DataGen/color_count_19" BEL "Inst_DataGen/color_count_18" BEL
+        "Inst_DataGen/color_count_17" BEL "Inst_DataGen/color_count_16" BEL
+        "Inst_DataGen/color_count_15" BEL "Inst_DataGen/color_count_14" BEL
+        "Inst_DataGen/color_count_13" BEL "Inst_DataGen/color_count_12" BEL
+        "Inst_DataGen/color_count_11" BEL "Inst_DataGen/color_count_10" BEL
+        "Inst_DataGen/color_count_9" BEL "Inst_DataGen/color_count_8" BEL
+        "Inst_DataGen/color_count_7" BEL "Inst_DataGen/color_count_6" BEL
+        "Inst_DataGen/color_count_5" BEL "Inst_DataGen/color_count_4" BEL
+        "Inst_DataGen/color_count_3" BEL "Inst_DataGen/color_count_2" BEL
+        "Inst_DataGen/color_count_1" BEL "Inst_DataGen/color_count_0" BEL
+        "Inst_DataGen/o_x_8" BEL "Inst_DataGen/o_x_7" BEL "Inst_DataGen/o_x_6"
+        BEL "Inst_DataGen/o_x_5" BEL "Inst_DataGen/o_x_4" BEL
+        "Inst_DataGen/o_x_3" BEL "Inst_DataGen/o_x_2" BEL "Inst_DataGen/o_x_1"
+        BEL "Inst_DataGen/o_x_0" BEL "Inst_DataGen/o_y_7" BEL
+        "Inst_DataGen/o_y_6" BEL "Inst_DataGen/o_y_5" BEL "Inst_DataGen/o_y_4"
+        BEL "Inst_DataGen/o_y_3" BEL "Inst_DataGen/o_y_2" BEL
+        "Inst_DataGen/o_y_1" BEL "Inst_DataGen/o_y_0" BEL
+        "Inst_DataGen/y_max_7" BEL "Inst_DataGen/y_max_6" BEL
+        "Inst_DataGen/y_max_5" BEL "Inst_DataGen/y_max_4" BEL
+        "Inst_DataGen/y_max_3" BEL "Inst_DataGen/y_max_2" BEL
+        "Inst_DataGen/y_max_1" BEL "Inst_DataGen/y_max_0" BEL
+        "Inst_DataGen/y_min_7" BEL "Inst_DataGen/y_min_6" BEL
+        "Inst_DataGen/y_min_5" BEL "Inst_DataGen/y_min_4" BEL
+        "Inst_DataGen/y_min_3" BEL "Inst_DataGen/y_min_2" BEL
+        "Inst_DataGen/x_max_8" BEL "Inst_DataGen/x_max_7" BEL
+        "Inst_DataGen/x_max_6" BEL "Inst_DataGen/x_max_5" BEL
+        "Inst_DataGen/x_max_4" BEL "Inst_DataGen/x_max_3" BEL
+        "Inst_DataGen/x_max_2" BEL "Inst_DataGen/x_max_1" BEL
+        "Inst_DataGen/x_max_0" BEL "Inst_DataGen/x_min_8" BEL
+        "Inst_DataGen/x_min_7" BEL "Inst_DataGen/x_min_6" BEL
+        "Inst_DataGen/x_min_5" BEL "Inst_DataGen/x_min_4" BEL
+        "Inst_DataGen/x_min_3" BEL "Inst_DataGen/x_min_2" BEL "Inst_FBCtl/X_9"
+        BEL "Inst_FBCtl/X_8" BEL "Inst_FBCtl/X_10" BEL "Inst_FBCtl/X_6" BEL
+        "Inst_FBCtl/X_5" BEL "Inst_FBCtl/X_7" BEL "Inst_FBCtl/X_3" BEL
+        "Inst_FBCtl/X_2" BEL "Inst_FBCtl/X_4" BEL "Inst_FBCtl/X_0" BEL
+        "Inst_FBCtl/X_1" BEL "Inst_FBCtl/Y_8" BEL "Inst_FBCtl/Y_7" BEL
+        "Inst_FBCtl/Y_9" BEL "Inst_FBCtl/Y_5" BEL "Inst_FBCtl/Y_4" BEL
+        "Inst_FBCtl/Y_6" BEL "Inst_FBCtl/Y_2" BEL "Inst_FBCtl/Y_1" BEL
+        "Inst_FBCtl/Y_3" BEL "Inst_FBCtl/Y_0" PIN
+        "Inst_FBCtl/Maddsub_n0066_pins<92>" PIN
+        "Inst_FBCtl/Maddsub_n0069_pins<92>" BEL
+        "Inst_FBCtl/frame_buffer_wr_en" BEL "Inst_FBCtl/wr_data_5" BEL
+        "Inst_FBCtl/wr_data_4" BEL "Inst_FBCtl/wr_data_3" BEL
+        "Inst_FBCtl/wr_data_2" BEL "Inst_FBCtl/wr_data_1" BEL
+        "Inst_FBCtl/wr_data_0" BEL "Inst_VideoTimingCtl/VCnt_4" BEL
+        "Inst_VideoTimingCtl/VCnt_3" BEL "Inst_VideoTimingCtl/HCnt_7" BEL
+        "Inst_VideoTimingCtl/HCnt_5" BEL "Inst_VideoTimingCtl/HCnt_4" BEL
+        "Inst_VideoTimingCtl/HCnt_6" BEL "Inst_VideoTimingCtl/HCnt_3" BEL
+        "Inst_VideoTimingCtl/Inst_LocalRst/RstQ_1" BEL
+        "Inst_VideoTimingCtl/Inst_LocalRst/RstQ_2" BEL
+        "Inst_VideoTimingCtl/Inst_LocalRst/RstQ_3" BEL
+        "Inst_VideoTimingCtl/Inst_LocalRst/RstQ_4" BEL
+        "Inst_VideoTimingCtl/hs" BEL "Inst_VideoTimingCtl/vde" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/cnt_t_1_4" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/cnt_t_1_3" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/cnt_t_1_2" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/cnt_t_1_1" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out_d_9" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out_d_8" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out_d_7" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out_d_6" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out_d_5" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out_d_4" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out_d_1" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out_d_0" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/n0_q_m_3" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/n0_q_m_2" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/n0_q_m_1" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/n1_q_m_2" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/n1_q_m_1" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_d_8" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_d_7" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_d_5" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_d_4" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_d_1" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/n1_d_2" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/n1_d_0" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/d_d_6" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/cnt_t_1_4" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/cnt_t_1_3" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/cnt_t_1_2" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/cnt_t_1_1" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/q_out_d_9" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/q_out_d_8" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/q_out_d_7" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/q_out_d_6" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/q_out_d_5" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/q_out_d_4" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/q_out_d_0" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/n0_q_m_3" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/n0_q_m_2" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/n0_q_m_1" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/n1_q_m_2" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/n1_q_m_1" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/q_m_d_8" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/q_m_d_7" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/q_m_d_6" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/q_m_d_5" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/q_m_d_4" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/n1_d_2" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/d_d_7" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/d_d_6" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/cnt_t_1_4" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/cnt_t_1_3" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/cnt_t_1_2" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/cnt_t_1_1" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/q_out_d_9" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/q_out_d_8" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/q_out_d_7" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/q_out_d_6" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/q_out_d_5" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/q_out_d_4" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/q_out_d_1" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/q_out_d_0" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/n0_q_m_3" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/n0_q_m_2" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/n0_q_m_1" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/n1_q_m_2" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/n1_q_m_1" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/q_m_d_8" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/q_m_d_7" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/q_m_d_5" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/q_m_d_4" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/q_m_d_1" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/n1_d_2" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/n1_d_0" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/d_d_6" BEL
+        "Inst_DataGen/o_done" BEL "Inst_VideoTimingCtl/VCnt_0" BEL
+        "Inst_VideoTimingCtl/HCnt_0" BEL "Inst_VideoTimingCtl/VCnt_8" BEL
+        "Inst_VideoTimingCtl/VCnt_7" BEL "Inst_VideoTimingCtl/VCnt_9" BEL
+        "Inst_VideoTimingCtl/VCnt_6" BEL "Inst_VideoTimingCtl/VCnt_5" BEL
+        "Inst_VideoTimingCtl/VCnt_2" BEL "Inst_VideoTimingCtl/VCnt_1" BEL
+        "Inst_VideoTimingCtl/HCnt_10" BEL "Inst_VideoTimingCtl/HCnt_9" BEL
+        "Inst_VideoTimingCtl/HCnt_8" BEL "Inst_VideoTimingCtl/HCnt_2" BEL
+        "Inst_VideoTimingCtl/HCnt_1" BEL "Inst_VideoTimingCtl/vs" BEL
+        "Inst_DVITransmitter/Inst_d0_serializer_10_1/gear" BEL
+        "Inst_DataGen/o_data_5" BEL "Inst_DataGen/o_data_4" BEL
+        "Inst_DataGen/o_data_3" BEL "Inst_DataGen/o_data_2" BEL
+        "Inst_DataGen/o_data_1" BEL "Inst_DataGen/o_data_0" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/Mshreg_de_dd" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/de_dd" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/Mshreg_c1_dd" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/c1_dd" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/Mshreg_c0_dd" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/c0_dd" BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe_0"
+        BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe_1"
+        BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe_2"
+        BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe_3"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[32].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[32].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[31].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[31].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[30].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[30].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[29].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[29].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[28].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[28].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[27].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[27].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[26].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[26].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[25].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[25].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[24].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[24].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[23].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[23].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[22].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[22].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[21].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[21].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[20].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[20].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[19].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[19].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[18].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[18].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>";
+TIMEGRP Inst_SysCon_pllout_x1 = BEL "d4/counter_0" BEL "d4/counter_1" BEL
+        "d4/counter_2" BEL "d4/counter_3" BEL "d4/counter_4" BEL
+        "d4/counter_5" BEL "d4/counter_6" BEL "d4/counter_7" BEL
+        "d4/counter_8" BEL "d4/counter_9" BEL "d4/counter_10" BEL
+        "d4/counter_11" BEL "d4/counter_12" BEL "d4/counter_13" BEL
+        "d4/counter_14" BEL "d4/counter_15" BEL "d4/counter_16" BEL
+        "d4/counter_17" BEL "d4/counter_18" BEL "d4/counter_19" BEL
+        "d4/counter_20" BEL "d4/counter_21" BEL "d3/counter_0" BEL
+        "d3/counter_1" BEL "d3/counter_2" BEL "d3/counter_3" BEL
+        "d3/counter_4" BEL "d3/counter_5" BEL "d3/counter_6" BEL
+        "d3/counter_7" BEL "d3/counter_8" BEL "d3/counter_9" BEL
+        "d3/counter_10" BEL "d3/counter_11" BEL "d3/counter_12" BEL
+        "d3/counter_13" BEL "d3/counter_14" BEL "d3/counter_15" BEL
+        "d3/counter_16" BEL "d3/counter_17" BEL "d3/counter_18" BEL
+        "d3/counter_19" BEL "d3/counter_20" BEL "d3/counter_21" BEL
+        "d2/counter_0" BEL "d2/counter_1" BEL "d2/counter_2" BEL
+        "d2/counter_3" BEL "d2/counter_4" BEL "d2/counter_5" BEL
+        "d2/counter_6" BEL "d2/counter_7" BEL "d2/counter_8" BEL
+        "d2/counter_9" BEL "d2/counter_10" BEL "d2/counter_11" BEL
+        "d2/counter_12" BEL "d2/counter_13" BEL "d2/counter_14" BEL
+        "d2/counter_15" BEL "d2/counter_16" BEL "d2/counter_17" BEL
+        "d2/counter_18" BEL "d2/counter_19" BEL "d2/counter_20" BEL
+        "d2/counter_21" BEL "d1/counter_0" BEL "d1/counter_1" BEL
+        "d1/counter_2" BEL "d1/counter_3" BEL "d1/counter_4" BEL
+        "d1/counter_5" BEL "d1/counter_6" BEL "d1/counter_7" BEL
+        "d1/counter_8" BEL "d1/counter_9" BEL "d1/counter_10" BEL
+        "d1/counter_11" BEL "d1/counter_12" BEL "d1/counter_13" BEL
+        "d1/counter_14" BEL "d1/counter_15" BEL "d1/counter_16" BEL
+        "d1/counter_17" BEL "d1/counter_18" BEL "d1/counter_19" BEL
+        "d1/counter_20" BEL "d1/counter_21" BEL "Inst_DataGen/color_count_30"
+        BEL "Inst_DataGen/color_count_29" BEL "Inst_DataGen/color_count_28"
+        BEL "Inst_DataGen/color_count_27" BEL "Inst_DataGen/color_count_26"
+        BEL "Inst_DataGen/color_count_25" BEL "Inst_DataGen/color_count_24"
+        BEL "Inst_DataGen/color_count_23" BEL "Inst_DataGen/color_count_22"
+        BEL "Inst_DataGen/color_count_21" BEL "Inst_DataGen/color_count_20"
+        BEL "Inst_DataGen/color_count_19" BEL "Inst_DataGen/color_count_18"
+        BEL "Inst_DataGen/color_count_17" BEL "Inst_DataGen/color_count_16"
+        BEL "Inst_DataGen/color_count_15" BEL "Inst_DataGen/color_count_14"
+        BEL "Inst_DataGen/color_count_13" BEL "Inst_DataGen/color_count_12"
+        BEL "Inst_DataGen/color_count_11" BEL "Inst_DataGen/color_count_10"
+        BEL "Inst_DataGen/color_count_9" BEL "Inst_DataGen/color_count_8" BEL
+        "Inst_DataGen/color_count_7" BEL "Inst_DataGen/color_count_6" BEL
+        "Inst_DataGen/color_count_5" BEL "Inst_DataGen/color_count_4" BEL
+        "Inst_DataGen/color_count_3" BEL "Inst_DataGen/color_count_2" BEL
+        "Inst_DataGen/color_count_1" BEL "Inst_DataGen/color_count_0" BEL
+        "Inst_DataGen/o_x_8" BEL "Inst_DataGen/o_x_7" BEL "Inst_DataGen/o_x_6"
+        BEL "Inst_DataGen/o_x_5" BEL "Inst_DataGen/o_x_4" BEL
+        "Inst_DataGen/o_x_3" BEL "Inst_DataGen/o_x_2" BEL "Inst_DataGen/o_x_1"
+        BEL "Inst_DataGen/o_x_0" BEL "Inst_DataGen/o_y_7" BEL
+        "Inst_DataGen/o_y_6" BEL "Inst_DataGen/o_y_5" BEL "Inst_DataGen/o_y_4"
+        BEL "Inst_DataGen/o_y_3" BEL "Inst_DataGen/o_y_2" BEL
+        "Inst_DataGen/o_y_1" BEL "Inst_DataGen/o_y_0" BEL
+        "Inst_DataGen/y_max_7" BEL "Inst_DataGen/y_max_6" BEL
+        "Inst_DataGen/y_max_5" BEL "Inst_DataGen/y_max_4" BEL
+        "Inst_DataGen/y_max_3" BEL "Inst_DataGen/y_max_2" BEL
+        "Inst_DataGen/y_max_1" BEL "Inst_DataGen/y_max_0" BEL
+        "Inst_DataGen/y_min_7" BEL "Inst_DataGen/y_min_6" BEL
+        "Inst_DataGen/y_min_5" BEL "Inst_DataGen/y_min_4" BEL
+        "Inst_DataGen/y_min_3" BEL "Inst_DataGen/y_min_2" BEL
+        "Inst_DataGen/x_max_8" BEL "Inst_DataGen/x_max_7" BEL
+        "Inst_DataGen/x_max_6" BEL "Inst_DataGen/x_max_5" BEL
+        "Inst_DataGen/x_max_4" BEL "Inst_DataGen/x_max_3" BEL
+        "Inst_DataGen/x_max_2" BEL "Inst_DataGen/x_max_1" BEL
+        "Inst_DataGen/x_max_0" BEL "Inst_DataGen/x_min_8" BEL
+        "Inst_DataGen/x_min_7" BEL "Inst_DataGen/x_min_6" BEL
+        "Inst_DataGen/x_min_5" BEL "Inst_DataGen/x_min_4" BEL
+        "Inst_DataGen/x_min_3" BEL "Inst_DataGen/x_min_2" BEL
+        "Inst_SysCon/BUFG_inst1" BEL "Inst_FBCtl/X_9" BEL "Inst_FBCtl/X_8" BEL
+        "Inst_FBCtl/X_10" BEL "Inst_FBCtl/X_6" BEL "Inst_FBCtl/X_5" BEL
+        "Inst_FBCtl/X_7" BEL "Inst_FBCtl/X_3" BEL "Inst_FBCtl/X_2" BEL
+        "Inst_FBCtl/X_4" BEL "Inst_FBCtl/X_0" BEL "Inst_FBCtl/X_1" BEL
+        "Inst_FBCtl/Y_8" BEL "Inst_FBCtl/Y_7" BEL "Inst_FBCtl/Y_9" BEL
+        "Inst_FBCtl/Y_5" BEL "Inst_FBCtl/Y_4" BEL "Inst_FBCtl/Y_6" BEL
+        "Inst_FBCtl/Y_2" BEL "Inst_FBCtl/Y_1" BEL "Inst_FBCtl/Y_3" BEL
+        "Inst_FBCtl/Y_0" PIN "Inst_FBCtl/Maddsub_n0066_pins<92>" PIN
+        "Inst_FBCtl/Maddsub_n0069_pins<92>" BEL
+        "Inst_FBCtl/frame_buffer_wr_en" BEL "Inst_FBCtl/wr_data_5" BEL
+        "Inst_FBCtl/wr_data_4" BEL "Inst_FBCtl/wr_data_3" BEL
+        "Inst_FBCtl/wr_data_2" BEL "Inst_FBCtl/wr_data_1" BEL
+        "Inst_FBCtl/wr_data_0" BEL "Inst_VideoTimingCtl/VCnt_4" BEL
+        "Inst_VideoTimingCtl/VCnt_3" BEL "Inst_VideoTimingCtl/HCnt_7" BEL
+        "Inst_VideoTimingCtl/HCnt_5" BEL "Inst_VideoTimingCtl/HCnt_4" BEL
+        "Inst_VideoTimingCtl/HCnt_6" BEL "Inst_VideoTimingCtl/HCnt_3" BEL
+        "Inst_VideoTimingCtl/Inst_LocalRst/RstQ_1" BEL
+        "Inst_VideoTimingCtl/Inst_LocalRst/RstQ_2" BEL
+        "Inst_VideoTimingCtl/Inst_LocalRst/RstQ_3" BEL
+        "Inst_VideoTimingCtl/Inst_LocalRst/RstQ_4" BEL
+        "Inst_VideoTimingCtl/hs" BEL "Inst_VideoTimingCtl/vde" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/cnt_t_1_4" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/cnt_t_1_3" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/cnt_t_1_2" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/cnt_t_1_1" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out_d_9" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out_d_8" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out_d_7" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out_d_6" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out_d_5" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out_d_4" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out_d_1" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out_d_0" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/n0_q_m_3" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/n0_q_m_2" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/n0_q_m_1" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/n1_q_m_2" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/n1_q_m_1" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_d_8" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_d_7" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_d_5" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_d_4" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_d_1" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/n1_d_2" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/n1_d_0" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/d_d_6" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/cnt_t_1_4" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/cnt_t_1_3" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/cnt_t_1_2" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/cnt_t_1_1" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/q_out_d_9" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/q_out_d_8" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/q_out_d_7" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/q_out_d_6" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/q_out_d_5" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/q_out_d_4" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/q_out_d_0" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/n0_q_m_3" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/n0_q_m_2" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/n0_q_m_1" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/n1_q_m_2" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/n1_q_m_1" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/q_m_d_8" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/q_m_d_7" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/q_m_d_6" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/q_m_d_5" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/q_m_d_4" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/n1_d_2" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/d_d_7" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_green/d_d_6" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/cnt_t_1_4" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/cnt_t_1_3" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/cnt_t_1_2" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/cnt_t_1_1" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/q_out_d_9" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/q_out_d_8" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/q_out_d_7" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/q_out_d_6" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/q_out_d_5" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/q_out_d_4" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/q_out_d_1" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/q_out_d_0" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/n0_q_m_3" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/n0_q_m_2" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/n0_q_m_1" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/n1_q_m_2" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/n1_q_m_1" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/q_m_d_8" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/q_m_d_7" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/q_m_d_5" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/q_m_d_4" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/q_m_d_1" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/n1_d_2" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/n1_d_0" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_red/d_d_6" BEL
+        "Inst_DataGen/o_done" BEL "Inst_VideoTimingCtl/VCnt_0" BEL
+        "Inst_VideoTimingCtl/HCnt_0" BEL "Inst_VideoTimingCtl/VCnt_8" BEL
+        "Inst_VideoTimingCtl/VCnt_7" BEL "Inst_VideoTimingCtl/VCnt_9" BEL
+        "Inst_VideoTimingCtl/VCnt_6" BEL "Inst_VideoTimingCtl/VCnt_5" BEL
+        "Inst_VideoTimingCtl/VCnt_2" BEL "Inst_VideoTimingCtl/VCnt_1" BEL
+        "Inst_VideoTimingCtl/HCnt_10" BEL "Inst_VideoTimingCtl/HCnt_9" BEL
+        "Inst_VideoTimingCtl/HCnt_8" BEL "Inst_VideoTimingCtl/HCnt_2" BEL
+        "Inst_VideoTimingCtl/HCnt_1" BEL "Inst_VideoTimingCtl/vs" BEL
+        "Inst_DVITransmitter/Inst_d0_serializer_10_1/gear" BEL
+        "Inst_DataGen/o_data_5" BEL "Inst_DataGen/o_data_4" BEL
+        "Inst_DataGen/o_data_3" BEL "Inst_DataGen/o_data_2" BEL
+        "Inst_DataGen/o_data_1" BEL "Inst_DataGen/o_data_0" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/Mshreg_de_dd" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/de_dd" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/Mshreg_c1_dd" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/c1_dd" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/Mshreg_c0_dd" BEL
+        "Inst_DVITransmitter/Inst_TMDSEncoder_blue/c0_dd" BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe_0"
+        BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe_1"
+        BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe_2"
+        BEL
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe_3"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[32].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[32].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[31].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[31].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[30].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[30].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[29].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[29].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[28].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[28].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[27].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[27].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[26].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[26].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[25].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[25].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[24].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[24].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[23].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[23].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[22].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[22].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[21].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[21].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[20].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[20].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[19].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[19].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[18].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[18].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "Inst_FBCtl/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>";
+PIN Inst_SysCon/Inst_dcm_recfg/dcm_clkgen_inst_pins<1> = BEL
+        "Inst_SysCon/Inst_dcm_recfg/dcm_clkgen_inst" PINNAME CLKIN;
+PIN Inst_SysCon/Inst_dcm_recfg/dcm_clkgen_inst_pins<4> = BEL
+        "Inst_SysCon/Inst_dcm_recfg/dcm_clkgen_inst" PINNAME PROGCLK;
+TIMEGRP i_clk = PIN "Inst_SysCon/Inst_dcm_recfg/dcm_clkgen_inst_pins<1>" PIN
+        "Inst_SysCon/Inst_dcm_recfg/dcm_clkgen_inst_pins<4>" BEL
+        "Inst_SysCon/SRL16_inst/SRL16E" BEL "Inst_SysCon/state_FSM_FFd4" BEL
+        "Inst_SysCon/state_FSM_FFd2" BEL "Inst_SysCon/state_FSM_FFd3" BEL
+        "Inst_SysCon/state_FSM_FFd1" BEL "Inst_SysCon/state_FSM_FFd6" BEL
+        "Inst_SysCon/bitCount_3" BEL "Inst_SysCon/bitCount_2" BEL
+        "Inst_SysCon/bitCount_1" BEL "Inst_SysCon/bitCount_0" BEL
+        "Inst_SysCon/state_FSM_FFd7" BEL "Inst_SysCon/RstDbncQ_9" BEL
+        "Inst_SysCon/RstDbncQ_8" BEL "Inst_SysCon/RstDbncQ_7" BEL
+        "Inst_SysCon/RstDbncQ_6" BEL "Inst_SysCon/RstDbncQ_5" BEL
+        "Inst_SysCon/RstDbncQ_4" BEL "Inst_SysCon/RstDbncQ_3" BEL
+        "Inst_SysCon/DcmProgReg_6" BEL "Inst_SysCon/DcmProgReg_5" BEL
+        "Inst_SysCon/DcmProgReg_4" BEL "Inst_SysCon/DcmProgReg_3" BEL
+        "Inst_SysCon/DcmProgReg_2" BEL "Inst_SysCon/DcmProgReg_1" BEL
+        "Inst_SysCon/DcmProgReg_0" BEL "Inst_SysCon/RstDbncQ_2" BEL
+        "Inst_SysCon/RstQ_99" BEL "Inst_SysCon/RstQ_98" BEL
+        "Inst_SysCon/RstQ_97" BEL "Inst_SysCon/prevRes_2" BEL
+        "Inst_SysCon/state_FSM_FFd5" BEL "Inst_SysCon/RstDbncQ_1" BEL
+        "Inst_SysCon/SysConCLK_BUFG" BEL "Inst_SysCon/Mshreg_RstQ_96_0" BEL
+        "Inst_SysCon/Mshreg_RstQ_96_1" BEL "Inst_SysCon/Mshreg_RstQ_96_2" BEL
+        "Inst_SysCon/RstQ_96";
+PIN Inst_SysCon/Inst_10_1_pll/PLL_ADV_pins<2> = BEL
+        "Inst_SysCon/Inst_10_1_pll/PLL_ADV" PINNAME CLKIN1;
+TIMEGRP Inst_SysCon_Inst_dcm_recfg_clkfx = BEL
+        "Inst_SysCon/Inst_dcm_recfg/clkout1_buf" PIN
+        "Inst_SysCon/Inst_10_1_pll/PLL_ADV_pins<2>";
+PIN Inst_DVITransmitter/Inst_d0_serializer_10_1/oserdes_s_pins<1> = BEL
+        "Inst_DVITransmitter/Inst_d0_serializer_10_1/oserdes_s" PINNAME
+        CLKDIV;
+PIN Inst_DVITransmitter/Inst_d0_serializer_10_1/oserdes_m_pins<1> = BEL
+        "Inst_DVITransmitter/Inst_d0_serializer_10_1/oserdes_m" PINNAME
+        CLKDIV;
+PIN Inst_DVITransmitter/Inst_d1_serializer_10_1/oserdes_s_pins<1> = BEL
+        "Inst_DVITransmitter/Inst_d1_serializer_10_1/oserdes_s" PINNAME
+        CLKDIV;
+PIN Inst_DVITransmitter/Inst_d1_serializer_10_1/oserdes_m_pins<1> = BEL
+        "Inst_DVITransmitter/Inst_d1_serializer_10_1/oserdes_m" PINNAME
+        CLKDIV;
+PIN Inst_DVITransmitter/Inst_d2_serializer_10_1/oserdes_s_pins<1> = BEL
+        "Inst_DVITransmitter/Inst_d2_serializer_10_1/oserdes_s" PINNAME
+        CLKDIV;
+PIN Inst_DVITransmitter/Inst_d2_serializer_10_1/oserdes_m_pins<1> = BEL
+        "Inst_DVITransmitter/Inst_d2_serializer_10_1/oserdes_m" PINNAME
+        CLKDIV;
+PIN Inst_DVITransmitter/Inst_clk_serializer_10_1/oserdes_s_pins<1> = BEL
+        "Inst_DVITransmitter/Inst_clk_serializer_10_1/oserdes_s" PINNAME
+        CLKDIV;
+PIN Inst_DVITransmitter/Inst_clk_serializer_10_1/oserdes_m_pins<1> = BEL
+        "Inst_DVITransmitter/Inst_clk_serializer_10_1/oserdes_m" PINNAME
+        CLKDIV;
+TIMEGRP Inst_SysCon_pllout_x2 = BEL "Inst_SysCon/BUFG_inst2" PIN
+        "Inst_DVITransmitter/Inst_d0_serializer_10_1/oserdes_s_pins<1>" PIN
+        "Inst_DVITransmitter/Inst_d0_serializer_10_1/oserdes_m_pins<1>" BEL
+        "Inst_DVITransmitter/Inst_d0_serializer_10_1/intDPIn_4" BEL
+        "Inst_DVITransmitter/Inst_d0_serializer_10_1/intDPIn_3" BEL
+        "Inst_DVITransmitter/Inst_d0_serializer_10_1/intDPIn_2" BEL
+        "Inst_DVITransmitter/Inst_d0_serializer_10_1/intDPIn_1" BEL
+        "Inst_DVITransmitter/Inst_d0_serializer_10_1/intDPIn_0" BEL
+        "Inst_DVITransmitter/Inst_d0_serializer_10_1/gear_s" PIN
+        "Inst_DVITransmitter/Inst_d1_serializer_10_1/oserdes_s_pins<1>" PIN
+        "Inst_DVITransmitter/Inst_d1_serializer_10_1/oserdes_m_pins<1>" BEL
+        "Inst_DVITransmitter/Inst_d1_serializer_10_1/intDPIn_4" BEL
+        "Inst_DVITransmitter/Inst_d1_serializer_10_1/intDPIn_3" BEL
+        "Inst_DVITransmitter/Inst_d1_serializer_10_1/intDPIn_2" BEL
+        "Inst_DVITransmitter/Inst_d1_serializer_10_1/intDPIn_1" BEL
+        "Inst_DVITransmitter/Inst_d1_serializer_10_1/intDPIn_0" PIN
+        "Inst_DVITransmitter/Inst_d2_serializer_10_1/oserdes_s_pins<1>" PIN
+        "Inst_DVITransmitter/Inst_d2_serializer_10_1/oserdes_m_pins<1>" BEL
+        "Inst_DVITransmitter/Inst_d2_serializer_10_1/intDPIn_4" BEL
+        "Inst_DVITransmitter/Inst_d2_serializer_10_1/intDPIn_3" BEL
+        "Inst_DVITransmitter/Inst_d2_serializer_10_1/intDPIn_2" BEL
+        "Inst_DVITransmitter/Inst_d2_serializer_10_1/intDPIn_1" BEL
+        "Inst_DVITransmitter/Inst_d2_serializer_10_1/intDPIn_0" PIN
+        "Inst_DVITransmitter/Inst_clk_serializer_10_1/oserdes_s_pins<1>" PIN
+        "Inst_DVITransmitter/Inst_clk_serializer_10_1/oserdes_m_pins<1>" BEL
+        "Inst_DVITransmitter/Inst_clk_serializer_10_1/intDPIn_4";
+PIN Inst_DVITransmitter/Inst_d0_serializer_10_1/oserdes_s_pins<0> = BEL
+        "Inst_DVITransmitter/Inst_d0_serializer_10_1/oserdes_s" PINNAME CLK0;
+PIN Inst_DVITransmitter/Inst_d0_serializer_10_1/oserdes_m_pins<0> = BEL
+        "Inst_DVITransmitter/Inst_d0_serializer_10_1/oserdes_m" PINNAME CLK0;
+PIN Inst_DVITransmitter/Inst_d1_serializer_10_1/oserdes_s_pins<0> = BEL
+        "Inst_DVITransmitter/Inst_d1_serializer_10_1/oserdes_s" PINNAME CLK0;
+PIN Inst_DVITransmitter/Inst_d1_serializer_10_1/oserdes_m_pins<0> = BEL
+        "Inst_DVITransmitter/Inst_d1_serializer_10_1/oserdes_m" PINNAME CLK0;
+PIN Inst_DVITransmitter/Inst_d2_serializer_10_1/oserdes_s_pins<0> = BEL
+        "Inst_DVITransmitter/Inst_d2_serializer_10_1/oserdes_s" PINNAME CLK0;
+PIN Inst_DVITransmitter/Inst_d2_serializer_10_1/oserdes_m_pins<0> = BEL
+        "Inst_DVITransmitter/Inst_d2_serializer_10_1/oserdes_m" PINNAME CLK0;
+PIN Inst_DVITransmitter/Inst_clk_serializer_10_1/oserdes_s_pins<0> = BEL
+        "Inst_DVITransmitter/Inst_clk_serializer_10_1/oserdes_s" PINNAME CLK0;
+PIN Inst_DVITransmitter/Inst_clk_serializer_10_1/oserdes_m_pins<0> = BEL
+        "Inst_DVITransmitter/Inst_clk_serializer_10_1/oserdes_m" PINNAME CLK0;
+TIMEGRP Inst_SysCon_pllout_xs = PIN
+        "Inst_DVITransmitter/Inst_d0_serializer_10_1/oserdes_s_pins<0>" PIN
+        "Inst_DVITransmitter/Inst_d0_serializer_10_1/oserdes_m_pins<0>" PIN
+        "Inst_DVITransmitter/Inst_d1_serializer_10_1/oserdes_s_pins<0>" PIN
+        "Inst_DVITransmitter/Inst_d1_serializer_10_1/oserdes_m_pins<0>" PIN
+        "Inst_DVITransmitter/Inst_d2_serializer_10_1/oserdes_s_pins<0>" PIN
+        "Inst_DVITransmitter/Inst_d2_serializer_10_1/oserdes_m_pins<0>" PIN
+        "Inst_DVITransmitter/Inst_clk_serializer_10_1/oserdes_s_pins<0>" PIN
+        "Inst_DVITransmitter/Inst_clk_serializer_10_1/oserdes_m_pins<0>";
+TS_i_clk = PERIOD TIMEGRP "i_clk" 99.99 MHz HIGH 50%;
+TS_PCLK = PERIOD TIMEGRP "PCLK" 108 MHz HIGH 50%;
+TS_Inst_SysCon_Inst_dcm_recfg_clkfx = PERIOD TIMEGRP
+        "Inst_SysCon_Inst_dcm_recfg_clkfx" TS_i_clk * 1.08 HIGH 50%;
+TS_Inst_SysCon_pllout_xs = PERIOD TIMEGRP "Inst_SysCon_pllout_xs"
+        TS_Inst_SysCon_Inst_dcm_recfg_clkfx * 10 HIGH 50%;
+TS_Inst_SysCon_pllout_x1 = PERIOD TIMEGRP "Inst_SysCon_pllout_x1"
+        TS_Inst_SysCon_Inst_dcm_recfg_clkfx HIGH 50%;
+TS_Inst_SysCon_pllout_x2 = PERIOD TIMEGRP "Inst_SysCon_pllout_x2"
+        TS_Inst_SysCon_Inst_dcm_recfg_clkfx * 2 HIGH 50%;
+SCHEMATIC END;
+

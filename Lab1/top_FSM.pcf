@@ -1,0 +1,25 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Jan 24 14:24:22 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "seg_Tg_out" LOCATE = SITE "T4" LEVEL 1;
+COMP "money_return" LOCATE = SITE "M14" LEVEL 1;
+COMP "dispense" LOCATE = SITE "N14" LEVEL 1;
+COMP "insert_coin" LOCATE = SITE "U18" LEVEL 1;
+COMP "clk" LOCATE = SITE "L15" LEVEL 1;
+COMP "seg_button" LOCATE = SITE "A10" LEVEL 1;
+COMP "cancel" LOCATE = SITE "F6" LEVEL 1;
+COMP "c50" LOCATE = SITE "P4" LEVEL 1;
+COMP "d1" LOCATE = SITE "F5" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "T3" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "R3" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "P6" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "N5" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "V9" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "T9" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "V4" LEVEL 1;
+COMP "rst" LOCATE = SITE "T15" LEVEL 1;
+COMP "sClk" LOCATE = SITE "N12" LEVEL 1;
+SCHEMATIC END;
+

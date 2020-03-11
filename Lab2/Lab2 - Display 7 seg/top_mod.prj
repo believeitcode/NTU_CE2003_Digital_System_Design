@@ -1,0 +1,4 @@
+verilog work "dff_mod.v"
+verilog work "debounce.v"
+verilog work "clock_gen.v"
+verilog work "top_mod.v"

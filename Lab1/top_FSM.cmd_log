@@ -1,0 +1,58 @@
+xst -intstyle ise -ifn "E:/Lab1/top_FSM.xst" -ofn "E:/Lab1/top_FSM.syr" 
+xst -intstyle ise -ifn "E:/Lab1/top_FSM.xst" -ofn "E:/Lab1/top_FSM.syr" 
+xst -intstyle ise -ifn "E:/Lab1/top_FSM.xst" -ofn "E:/Lab1/top_FSM.syr" 
+xst -intstyle ise -ifn "E:/Lab1/top_FSM.xst" -ofn "E:/Lab1/top_FSM.syr" 
+xst -intstyle ise -ifn "E:/Lab1/top_FSM.xst" -ofn "E:/Lab1/top_FSM.syr" 
+xst -intstyle ise -ifn "E:/Lab1/top_FSM.xst" -ofn "E:/Lab1/top_FSM.syr" 
+xst -intstyle ise -ifn "E:/Lab1/top_FSM.xst" -ofn "E:/Lab1/top_FSM.syr" 
+xst -intstyle ise -ifn "E:/Lab1/top_FSM.xst" -ofn "E:/Lab1/top_FSM.syr" 
+xst -intstyle ise -ifn "E:/Lab1/top_FSM.xst" -ofn "E:/Lab1/top_FSM.syr" 
+xst -intstyle ise -ifn "E:/Lab1/top_FSM.xst" -ofn "E:/Lab1/top_FSM.syr" 
+xst -intstyle ise -ifn "E:/Lab1/top_FSM.xst" -ofn "E:/Lab1/top_FSM.syr" 
+xst -intstyle ise -ifn "E:/Lab1/top_FSM.xst" -ofn "E:/Lab1/top_FSM.syr" 
+xst -intstyle ise -ifn "E:/Lab1/top_FSM.xst" -ofn "E:/Lab1/top_FSM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_FSM.ucf -p xc6slx45-csg324-3 top_FSM.ngc top_FSM.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_FSM_map.ncd top_FSM.ngd top_FSM.pcf 
+xst -intstyle ise -ifn "E:/Lab1/top_FSM.xst" -ofn "E:/Lab1/top_FSM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_FSM.ucf -p xc6slx45-csg324-3 top_FSM.ngc top_FSM.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_FSM_map.ncd top_FSM.ngd top_FSM.pcf 
+par -w -intstyle ise -ol high -mt off top_FSM_map.ncd top_FSM.ncd top_FSM.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_FSM.twx top_FSM.ncd -o top_FSM.twr top_FSM.pcf -ucf top_FSM.ucf 
+bitgen -intstyle ise -f top_FSM.ut top_FSM.ncd 
+xst -intstyle ise -ifn "E:/Lab1/top_FSM.xst" -ofn "E:/Lab1/top_FSM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_FSM.ucf -p xc6slx45-csg324-3 top_FSM.ngc top_FSM.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_FSM_map.ncd top_FSM.ngd top_FSM.pcf 
+par -w -intstyle ise -ol high -mt off top_FSM_map.ncd top_FSM.ncd top_FSM.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_FSM.twx top_FSM.ncd -o top_FSM.twr top_FSM.pcf -ucf top_FSM.ucf 
+bitgen -intstyle ise -f top_FSM.ut top_FSM.ncd 
+xst -intstyle ise -ifn "E:/Lab1/top_FSM.xst" -ofn "E:/Lab1/top_FSM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_FSM.ucf -p xc6slx45-csg324-3 top_FSM.ngc top_FSM.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_FSM_map.ncd top_FSM.ngd top_FSM.pcf 
+par -w -intstyle ise -ol high -mt off top_FSM_map.ncd top_FSM.ncd top_FSM.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_FSM.twx top_FSM.ncd -o top_FSM.twr top_FSM.pcf -ucf top_FSM.ucf 
+bitgen -intstyle ise -f top_FSM.ut top_FSM.ncd 
+xst -intstyle ise -ifn "E:/Lab1/top_FSM.xst" -ofn "E:/Lab1/top_FSM.syr" 
+xst -intstyle ise -ifn "E:/Lab1/top_FSM.xst" -ofn "E:/Lab1/top_FSM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_FSM.ucf -p xc6slx45-csg324-3 top_FSM.ngc top_FSM.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_FSM_map.ncd top_FSM.ngd top_FSM.pcf 
+par -w -intstyle ise -ol high -mt off top_FSM_map.ncd top_FSM.ncd top_FSM.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_FSM.twx top_FSM.ncd -o top_FSM.twr top_FSM.pcf -ucf top_FSM.ucf 
+bitgen -intstyle ise -f top_FSM.ut top_FSM.ncd 
+xst -intstyle ise -ifn "E:/Lab1/top_FSM.xst" -ofn "E:/Lab1/top_FSM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_FSM.ucf -p xc6slx45-csg324-3 top_FSM.ngc top_FSM.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_FSM_map.ncd top_FSM.ngd top_FSM.pcf 
+par -w -intstyle ise -ol high -mt off top_FSM_map.ncd top_FSM.ncd top_FSM.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_FSM.twx top_FSM.ncd -o top_FSM.twr top_FSM.pcf -ucf top_FSM.ucf 
+bitgen -intstyle ise -f top_FSM.ut top_FSM.ncd 
+xst -intstyle ise -ifn "E:/Lab1/top_FSM.xst" -ofn "E:/Lab1/top_FSM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_FSM.ucf -p xc6slx45-csg324-3 top_FSM.ngc top_FSM.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_FSM_map.ncd top_FSM.ngd top_FSM.pcf 
+par -w -intstyle ise -ol high -mt off top_FSM_map.ncd top_FSM.ncd top_FSM.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_FSM.twx top_FSM.ncd -o top_FSM.twr top_FSM.pcf -ucf top_FSM.ucf 
+bitgen -intstyle ise -f top_FSM.ut top_FSM.ncd 
+xst -intstyle ise -ifn "D:/VMShare/CE2003 Lab/Final/Lab1/top_FSM.xst" -ofn "D:/VMShare/CE2003 Lab/Final/Lab1/top_FSM.syr" 
+xst -intstyle ise -ifn "D:/VMShare/CE2003 Lab/Final/Lab1/top_FSM.xst" -ofn "D:/VMShare/CE2003 Lab/Final/Lab1/top_FSM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_FSM.ucf -p xc6slx45-csg324-3 "top_FSM.ngc" top_FSM.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_FSM_map.ncd top_FSM.ngd top_FSM.pcf 
+par -w -intstyle ise -ol high -mt off top_FSM_map.ncd top_FSM.ncd top_FSM.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_FSM.twx top_FSM.ncd -o top_FSM.twr top_FSM.pcf -ucf top_FSM.ucf 

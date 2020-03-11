@@ -1,0 +1,28 @@
+Command line:
+   DataGen_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51531
+
+Tue Mar 10 15:11:03 2020
+
+
+ Elaboration Time: 0.0624 sec
+
+ Current Memory Usage: 824.635 Meg
+
+ Total Signals          : 24
+ Total Nets             : 49
+ Total Signal Drivers   : 16
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 22
+ Total Traceable Variables  : 34
+ Total Scalar Nets and Variables : 200
+
+ Total Simulation Time: 0.608404 sec
+
+ Current Memory Usage: 824.635 Meg
+
+Tue Mar 10 15:11:26 2020
+

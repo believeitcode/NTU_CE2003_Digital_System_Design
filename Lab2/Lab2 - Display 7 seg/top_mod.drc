@@ -1,0 +1,8 @@
+Release 14.4 Drc P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Tue Feb 18 16:17:07 2020
+
+drc -z top_mod.ncd top_mod.pcf
+
+DRC detected 0 errors and 0 warnings.

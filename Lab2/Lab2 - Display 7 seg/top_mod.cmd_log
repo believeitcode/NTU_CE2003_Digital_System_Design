@@ -1,0 +1,66 @@
+xst -intstyle ise -ifn "E:/Lab2/Lab2/top_mod.xst" -ofn "E:/Lab2/Lab2/top_mod.syr" 
+xst -intstyle ise -ifn "E:/Lab2/Lab2/top_mod.xst" -ofn "E:/Lab2/Lab2/top_mod.syr" 
+xst -intstyle ise -ifn "E:/Lab2/Lab2/top_mod.xst" -ofn "E:/Lab2/Lab2/top_mod.syr" 
+xst -intstyle ise -ifn "E:/Lab2/Lab2/top_mod.xst" -ofn "E:/Lab2/Lab2/top_mod.syr" 
+xst -intstyle ise -ifn "E:/Lab2/Lab2/top_mod.xst" -ofn "E:/Lab2/Lab2/top_mod.syr" 
+xst -intstyle ise -ifn "E:/Lab2/Lab2/top_mod.xst" -ofn "E:/Lab2/Lab2/top_mod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LAB2.ucf -p xc6slx45-csg324-3 top_mod.ngc top_mod.ngd  
+xst -intstyle ise -ifn "E:/Lab2/Lab2/top_mod.xst" -ofn "E:/Lab2/Lab2/top_mod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LAB2.ucf -p xc6slx45-csg324-3 top_mod.ngc top_mod.ngd  
+xst -intstyle ise -ifn "E:/Lab2/Lab2/top_mod.xst" -ofn "E:/Lab2/Lab2/top_mod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LAB2.ucf -p xc6slx45-csg324-3 top_mod.ngc top_mod.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_mod_map.ncd top_mod.ngd top_mod.pcf 
+par -w -intstyle ise -ol high -mt off top_mod_map.ncd top_mod.ncd top_mod.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_mod.twx top_mod.ncd -o top_mod.twr top_mod.pcf -ucf LAB2.ucf 
+xst -intstyle ise -ifn "E:/Lab2/Lab2/top_mod.xst" -ofn "E:/Lab2/Lab2/top_mod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LAB2.ucf -p xc6slx45-csg324-3 top_mod.ngc top_mod.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_mod_map.ncd top_mod.ngd top_mod.pcf 
+par -w -intstyle ise -ol high -mt off top_mod_map.ncd top_mod.ncd top_mod.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_mod.twx top_mod.ncd -o top_mod.twr top_mod.pcf -ucf LAB2.ucf 
+xst -intstyle ise -ifn "E:/Lab2/Lab2/top_mod.xst" -ofn "E:/Lab2/Lab2/top_mod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LAB2.ucf -p xc6slx45-csg324-3 top_mod.ngc top_mod.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_mod_map.ncd top_mod.ngd top_mod.pcf 
+par -w -intstyle ise -ol high -mt off top_mod_map.ncd top_mod.ncd top_mod.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_mod.twx top_mod.ncd -o top_mod.twr top_mod.pcf -ucf LAB2.ucf 
+xst -intstyle ise -ifn "E:/Lab2/Lab2/top_mod.xst" -ofn "E:/Lab2/Lab2/top_mod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LAB2.ucf -p xc6slx45-csg324-3 top_mod.ngc top_mod.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_mod_map.ncd top_mod.ngd top_mod.pcf 
+par -w -intstyle ise -ol high -mt off top_mod_map.ncd top_mod.ncd top_mod.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_mod.twx top_mod.ncd -o top_mod.twr top_mod.pcf -ucf LAB2.ucf 
+xst -intstyle ise -ifn "E:/Lab2/Lab2/top_mod.xst" -ofn "E:/Lab2/Lab2/top_mod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LAB2.ucf -p xc6slx45-csg324-3 top_mod.ngc top_mod.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_mod_map.ncd top_mod.ngd top_mod.pcf 
+par -w -intstyle ise -ol high -mt off top_mod_map.ncd top_mod.ncd top_mod.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_mod.twx top_mod.ncd -o top_mod.twr top_mod.pcf -ucf LAB2.ucf 
+bitgen -intstyle ise -f top_mod.ut top_mod.ncd 
+xst -intstyle ise -ifn "E:/Lab2/Lab2/top_mod.xst" -ofn "E:/Lab2/Lab2/top_mod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LAB2.ucf -p xc6slx45-csg324-3 top_mod.ngc top_mod.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_mod_map.ncd top_mod.ngd top_mod.pcf 
+par -w -intstyle ise -ol high -mt off top_mod_map.ncd top_mod.ncd top_mod.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_mod.twx top_mod.ncd -o top_mod.twr top_mod.pcf -ucf LAB2.ucf 
+bitgen -intstyle ise -f top_mod.ut top_mod.ncd 
+xst -intstyle ise -ifn "E:/Lab2/Lab2/top_mod.xst" -ofn "E:/Lab2/Lab2/top_mod.syr" 
+xst -intstyle ise -ifn "E:/Lab2/Lab2/top_mod.xst" -ofn "E:/Lab2/Lab2/top_mod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LAB2.ucf -p xc6slx45-csg324-3 top_mod.ngc top_mod.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_mod_map.ncd top_mod.ngd top_mod.pcf 
+par -w -intstyle ise -ol high -mt off top_mod_map.ncd top_mod.ncd top_mod.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_mod.twx top_mod.ncd -o top_mod.twr top_mod.pcf -ucf LAB2.ucf 
+bitgen -intstyle ise -f top_mod.ut top_mod.ncd 
+xst -intstyle ise -ifn "E:/Lab2/Lab2/top_mod.xst" -ofn "E:/Lab2/Lab2/top_mod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LAB2.ucf -p xc6slx45-csg324-3 top_mod.ngc top_mod.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_mod_map.ncd top_mod.ngd top_mod.pcf 
+par -w -intstyle ise -ol high -mt off top_mod_map.ncd top_mod.ncd top_mod.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_mod.twx top_mod.ncd -o top_mod.twr top_mod.pcf -ucf LAB2.ucf 
+bitgen -intstyle ise -f top_mod.ut top_mod.ncd 
+xst -intstyle ise -ifn "E:/Lab2/Lab2/top_mod.xst" -ofn "E:/Lab2/Lab2/top_mod.syr" 
+xst -intstyle ise -ifn "E:/Lab2/Lab2/top_mod.xst" -ofn "E:/Lab2/Lab2/top_mod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LAB2.ucf -p xc6slx45-csg324-3 top_mod.ngc top_mod.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_mod_map.ncd top_mod.ngd top_mod.pcf 
+par -w -intstyle ise -ol high -mt off top_mod_map.ncd top_mod.ncd top_mod.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_mod.twx top_mod.ncd -o top_mod.twr top_mod.pcf -ucf LAB2.ucf 
+bitgen -intstyle ise -f top_mod.ut top_mod.ncd 
+xst -intstyle ise -ifn "E:/CE2003/Lab (NTU)/Lab2/Lab2 - Display 7 seg/top_mod.xst" -ofn "E:/CE2003/Lab (NTU)/Lab2/Lab2 - Display 7 seg/top_mod.syr" 
+xst -intstyle ise -ifn "E:/CE2003/Lab (NTU)/Lab2/Lab2 - Display 7 seg/top_mod.xst" -ofn "E:/CE2003/Lab (NTU)/Lab2/Lab2 - Display 7 seg/top_mod.syr" 
+xst -intstyle ise -ifn "E:/CE2003/Lab (NTU)/Lab2/Lab2 - Display 7 seg/top_mod.xst" -ofn "E:/CE2003/Lab (NTU)/Lab2/Lab2 - Display 7 seg/top_mod.syr" 
+xst -intstyle ise -ifn "E:/CE2003/Lab (NTU)/Lab2/Lab2 - Display 7 seg/top_mod.xst" -ofn "E:/CE2003/Lab (NTU)/Lab2/Lab2 - Display 7 seg/top_mod.syr" 
+xst -intstyle ise -ifn "E:/CE2003/Lab (NTU)/Lab2/Lab2 - Display 7 seg/top_mod.xst" -ofn "E:/CE2003/Lab (NTU)/Lab2/Lab2 - Display 7 seg/top_mod.syr" 

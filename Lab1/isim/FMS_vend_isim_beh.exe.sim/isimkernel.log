@@ -1,0 +1,28 @@
+Command line:
+   FMS_vend_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  65211
+
+Wed Jan 22 14:33:50 2020
+
+
+ Elaboration Time: 0.0312 sec
+
+ Current Memory Usage: 824.631 Meg
+
+ Total Signals          : 18
+ Total Nets             : 23
+ Total Signal Drivers   : 9
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 12
+ Total Traceable Variables  : 28
+ Total Scalar Nets and Variables : 120
+
+ Total Simulation Time: 0.093601 sec
+
+ Current Memory Usage: 824.631 Meg
+
+Wed Jan 22 14:34:03 2020
+

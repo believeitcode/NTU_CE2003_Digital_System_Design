@@ -1,0 +1,1176 @@
+Release 14.4 - xst P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> Reading design: VmodCAM_Ref.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "VmodCAM_Ref.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "VmodCAM_Ref"
+Output Format                      : NGC
+Target Device                      : xc6slx45-3-csg324
+
+---- Source Options
+Top Module Name                    : VmodCAM_Ref
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "E:\DSD_LAB3\ipcore_dir\frame_buffer.v" into library work
+Parsing module <frame_buffer>.
+Analyzing Verilog file "E:\DSD_LAB3\src\FBCtl.v" into library work
+Parsing module <FBCtl>.
+Analyzing Verilog file "E:\DSD_LAB3\src\debouncer.v" into library work
+Parsing module <debouncer>.
+Analyzing Verilog file "E:\DSD_LAB3\src\DataGen.v" into library work
+Parsing module <DataGen>.
+Analyzing Verilog file "E:\DSD_LAB3\src\VmodCAM_Ref.v" into library work
+Parsing module <VmodCAM_Ref>.
+Parsing VHDL file "E:\DSD_LAB3\src\Video.vhd" into library work
+Parsing package <Video>.
+Parsing VHDL file "E:\DSD_LAB3\src\TMDSEncoder.vhd" into library work
+Parsing entity <TMDSEncoder>.
+Parsing architecture <Behavioral> of entity <tmdsencoder>.
+Parsing VHDL file "E:\DSD_LAB3\src\SerializerN_1.vhd" into library work
+Parsing entity <SerializerN_1>.
+Parsing architecture <Behavioral> of entity <serializern_1>.
+Parsing VHDL file "E:\DSD_LAB3\src\LocalRst.vhd" into library work
+Parsing entity <LocalRst>.
+Parsing architecture <Behavioral> of entity <localrst>.
+Parsing VHDL file "E:\DSD_LAB3\src\InputSync.vhd" into library work
+Parsing entity <InputSync>.
+Parsing architecture <Behavioral> of entity <inputsync>.
+Parsing entity <InputSyncV>.
+Parsing architecture <Behavioral> of entity <inputsyncv>.
+Parsing VHDL file "E:\DSD_LAB3\src\dcm_recfg.vhd" into library work
+Parsing entity <dcm_recfg>.
+Parsing architecture <xilinx> of entity <dcm_recfg>.
+Parsing VHDL file "E:\DSD_LAB3\src\dcm_fixed.vhd" into library work
+Parsing entity <dcm_fixed>.
+Parsing architecture <xilinx> of entity <dcm_fixed>.
+Parsing VHDL file "E:\DSD_LAB3\src\VideoTimingCtl.vhd" into library work
+Parsing entity <VideoTimingCtl>.
+Parsing architecture <Behavioral> of entity <videotimingctl>.
+Parsing VHDL file "E:\DSD_LAB3\src\SysCon.vhd" into library work
+Parsing entity <SysCon>.
+Parsing architecture <Behavioral> of entity <syscon>.
+Parsing VHDL file "E:\DSD_LAB3\src\DVITransmitter.vhd" into library work
+Parsing entity <DVITransmitter>.
+Parsing architecture <Behavioral> of entity <dvitransmitter>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <VmodCAM_Ref>.
+Going to vhdl side to elaborate module SysCon
+
+Elaborating entity <SysCon> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <InputSyncV> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <InputSync> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <dcm_fixed> (architecture <xilinx>) from library <work>.
+
+Elaborating entity <dcm_recfg> (architecture <xilinx>) from library <work>.
+
+Elaborating entity <InputSyncV> (architecture <Behavioral>) from library <work>.
+Back to verilog to continue elaboration
+
+Elaborating module <FBCtl>.
+
+Elaborating module <frame_buffer>.
+WARNING:HDLCompiler:1499 - "E:\DSD_LAB3\ipcore_dir\frame_buffer.v" Line 39: Empty module <frame_buffer> remains a black box.
+WARNING:HDLCompiler:413 - "E:\DSD_LAB3\src\FBCtl.v" Line 61: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "E:\DSD_LAB3\src\FBCtl.v" Line 64: Result of 12-bit expression is truncated to fit in 11-bit target.
+WARNING:HDLCompiler:413 - "E:\DSD_LAB3\src\FBCtl.v" Line 65: Result of 18-bit expression is truncated to fit in 17-bit target.
+WARNING:HDLCompiler:413 - "E:\DSD_LAB3\src\FBCtl.v" Line 81: Result of 18-bit expression is truncated to fit in 17-bit target.
+
+Elaborating module <DataGen>.
+WARNING:HDLCompiler:413 - "E:\DSD_LAB3\src\DataGen.v" Line 89: Result of 32-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "E:\DSD_LAB3\src\DataGen.v" Line 90: Result of 32-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "E:\DSD_LAB3\src\DataGen.v" Line 97: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "E:\DSD_LAB3\src\DataGen.v" Line 98: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "E:\DSD_LAB3\src\DataGen.v" Line 106: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "E:\DSD_LAB3\src\DataGen.v" Line 107: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "E:\DSD_LAB3\src\DataGen.v" Line 114: Result of 9-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "E:\DSD_LAB3\src\DataGen.v" Line 115: Result of 9-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "E:\DSD_LAB3\src\DataGen.v" Line 126: Result of 32-bit expression is truncated to fit in 31-bit target.
+
+Elaborating module <debouncer>.
+Going to vhdl side to elaborate module VideoTimingCtl
+
+Elaborating entity <VideoTimingCtl> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:871 - "E:\DSD_LAB3\src\VideoTimingCtl.vhd" Line 62: Using initial value r1600_900p for rsel_i since it is never assigned
+
+Elaborating entity <LocalRst> (architecture <Behavioral>) with generics from library <work>.
+Back to verilog to continue elaboration
+WARNING:HDLCompiler:189 - "E:\DSD_LAB3\src\VmodCAM_Ref.v" Line 157: Size mismatch in connection of port <HCNT_O>. Formal port size is 31-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "E:\DSD_LAB3\src\VmodCAM_Ref.v" Line 158: Size mismatch in connection of port <VCNT_O>. Formal port size is 31-bit while actual signal size is 32-bit.
+Going to vhdl side to elaborate module DVITransmitter
+
+Elaborating entity <DVITransmitter> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <TMDSEncoder> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <SerializerN_1> (architecture <Behavioral>) with generics from library <work>.
+Back to verilog to continue elaboration
+WARNING:HDLCompiler:552 - "E:\DSD_LAB3\src\VmodCAM_Ref.v" Line 58: Input port SW_I[7] is not connected on this instance
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <VmodCAM_Ref>.
+    Related source file is "E:\DSD_LAB3\src\VmodCAM_Ref.v".
+        C3_NUM_DQ_PINS = 16
+        C3_MEM_ADDR_WIDTH = 13
+        C3_MEM_BANKADDR_WIDTH = 3
+    Set property "S = TRUE" for signal <dummy_t>.
+WARNING:Xst:2898 - Port 'SW_I', unconnected in block instance 'Inst_SysCon', is tied to GND.
+INFO:Xst:3210 - "E:\DSD_LAB3\src\VmodCAM_Ref.v" line 58: Output port <RSEL_O> of the instance <Inst_SysCon> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\DSD_LAB3\src\VmodCAM_Ref.v" line 58: Output port <MSEL_O> of the instance <Inst_SysCon> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\DSD_LAB3\src\VmodCAM_Ref.v" line 58: Output port <SW_O> of the instance <Inst_SysCon> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\DSD_LAB3\src\VmodCAM_Ref.v" line 58: Output port <CLK_O> of the instance <Inst_SysCon> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\DSD_LAB3\src\VmodCAM_Ref.v" line 58: Output port <CAMCLK_O> of the instance <Inst_SysCon> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\DSD_LAB3\src\VmodCAM_Ref.v" line 58: Output port <CAMCLK_180_O> of the instance <Inst_SysCon> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\DSD_LAB3\src\VmodCAM_Ref.v" line 58: Output port <DDR2CLK_2X_O> of the instance <Inst_SysCon> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\DSD_LAB3\src\VmodCAM_Ref.v" line 58: Output port <DDR2CLK_2X_180_O> of the instance <Inst_SysCon> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\DSD_LAB3\src\VmodCAM_Ref.v" line 58: Output port <MCB_DRP_CLK_O> of the instance <Inst_SysCon> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\DSD_LAB3\src\VmodCAM_Ref.v" line 58: Output port <PLL_CE_0_O> of the instance <Inst_SysCon> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\DSD_LAB3\src\VmodCAM_Ref.v" line 58: Output port <PLL_CE_90_O> of the instance <Inst_SysCon> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\DSD_LAB3\src\VmodCAM_Ref.v" line 58: Output port <PLL_LOCK> of the instance <Inst_SysCon> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\DSD_LAB3\src\VmodCAM_Ref.v" line 58: Output port <ASYNC_RST> of the instance <Inst_SysCon> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\DSD_LAB3\src\VmodCAM_Ref.v" line 151: Output port <HCNT_O> of the instance <Inst_VideoTimingCtl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\DSD_LAB3\src\VmodCAM_Ref.v" line 151: Output port <VCNT_O> of the instance <Inst_VideoTimingCtl> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <VmodCAM_Ref> synthesized.
+
+Synthesizing Unit <SysCon>.
+    Related source file is "E:\DSD_LAB3\src\SysCon.vhd".
+    Set property "KEEP = TRUE" for signal <ASYNC_RST>.
+    Found 1-bit register for signal <RstDbncQ<2>>.
+    Found 1-bit register for signal <RstDbncQ<3>>.
+    Found 1-bit register for signal <RstDbncQ<4>>.
+    Found 1-bit register for signal <RstDbncQ<5>>.
+    Found 1-bit register for signal <RstDbncQ<6>>.
+    Found 1-bit register for signal <RstDbncQ<7>>.
+    Found 1-bit register for signal <RstDbncQ<8>>.
+    Found 1-bit register for signal <RstDbncQ<9>>.
+    Found 100-bit register for signal <RstQ>.
+    Found 3-bit register for signal <prevRes>.
+    Found 3-bit register for signal <state>.
+    Found 10-bit register for signal <DcmProgReg>.
+    Found 4-bit register for signal <bitCount>.
+    Found 1-bit register for signal <RstDbncQ<1>>.
+    Found 1-bit register for signal <RSEL_O>.
+    Found 1-bit register for signal <RstD<7>>.
+    Found 1-bit register for signal <RstD<6>>.
+    Found 1-bit register for signal <RstD<5>>.
+    Found 1-bit register for signal <RstD<4>>.
+    Found 1-bit register for signal <RstD<3>>.
+    Found 1-bit register for signal <RstD<2>>.
+    Found 1-bit register for signal <RstD<1>>.
+    Found 1-bit register for signal <RstD<0>>.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 7                                              |
+    | Transitions        | 14                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 8                                              |
+    | Clock              | SysConCLK (rising_edge)                        |
+    | Reset              | DcmRst (positive)                              |
+    | Reset type         | synchronous                                    |
+    | Reset State        | stidle                                         |
+    | Power Up State     | stidle                                         |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 4-bit adder for signal <bitCount[3]_GND_9_o_add_17_OUT> created at line 329.
+    Found 8-bit subtractor for signal <GND_9_o_GND_9_o_sub_3_OUT<7:0>> created at line 207.
+    WARNING:Xst:2404 -  FFs/Latches <RSEL_O<1:0>> (without init value) have a constant value of 0 in block <SysCon>.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred 135 D-type flip-flop(s).
+	inferred   3 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <SysCon> synthesized.
+
+Synthesizing Unit <InputSyncV_1>.
+    Related source file is "E:\DSD_LAB3\src\InputSync.vhd".
+WARNING:Xst:1581 - Constraint "TIG" is only supported in a XCF file outside the BEGIN MODEL/END section.
+WARNING:Xst:1581 - Constraint "TIG" is only supported in a XCF file outside the BEGIN MODEL/END section.
+    Set property "IOB = FALSE" for signal <D_I>.
+    Set property "ASYNC_REG = TRUE" for signal <sreg>.
+    Set property "shift_extract = NO" for signal <sreg>.
+    Set property "HBLKNM = SYNC_REG" for signal <sreg>.
+    Summary:
+	no macro.
+Unit <InputSyncV_1> synthesized.
+
+Synthesizing Unit <InputSync>.
+    Related source file is "E:\DSD_LAB3\src\InputSync.vhd".
+WARNING:Xst:1581 - Constraint "TIG" is only supported in a XCF file outside the BEGIN MODEL/END section.
+    Set property "ASYNC_REG = TRUE" for signal <sreg>.
+    Set property "shift_extract = NO" for signal <sreg>.
+    Set property "HBLKNM = SYNC_REG" for signal <sreg>.
+WARNING:Xst:1581 - Constraint "TIG" is only supported in a XCF file outside the BEGIN MODEL/END section.
+    Set property "IOB = FALSE" for signal <D_I>.
+    Found 2-bit register for signal <sreg>.
+    Found 1-bit register for signal <D_O>.
+INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal n0003 may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - ASYNC_REG, HBLKNM properties attached to signal sreg may hinder XST clustering optimizations.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <InputSync> synthesized.
+
+Synthesizing Unit <dcm_fixed>.
+    Related source file is "E:\DSD_LAB3\src\dcm_fixed.vhd".
+    Summary:
+	no macro.
+Unit <dcm_fixed> synthesized.
+
+Synthesizing Unit <dcm_recfg>.
+    Related source file is "E:\DSD_LAB3\src\dcm_recfg.vhd".
+    Summary:
+	no macro.
+Unit <dcm_recfg> synthesized.
+
+Synthesizing Unit <InputSyncV_2>.
+    Related source file is "E:\DSD_LAB3\src\InputSync.vhd".
+WARNING:Xst:1581 - Constraint "TIG" is only supported in a XCF file outside the BEGIN MODEL/END section.
+WARNING:Xst:1581 - Constraint "TIG" is only supported in a XCF file outside the BEGIN MODEL/END section.
+    Set property "IOB = FALSE" for signal <D_I>.
+    Set property "ASYNC_REG = TRUE" for signal <sreg>.
+    Set property "shift_extract = NO" for signal <sreg>.
+    Set property "HBLKNM = SYNC_REG" for signal <sreg>.
+    Summary:
+	no macro.
+Unit <InputSyncV_2> synthesized.
+
+Synthesizing Unit <FBCtl>.
+    Related source file is "E:\DSD_LAB3\src\FBCtl.v".
+    Found 10-bit register for signal <Y>.
+    Found 17-bit register for signal <rd_addr>.
+    Found 1-bit register for signal <frame_buffer_wr_en>.
+    Found 17-bit register for signal <wr_addr>.
+    Found 6-bit register for signal <wr_data>.
+    Found 11-bit register for signal <X>.
+    Found 10-bit adder for signal <Y[9]_GND_25_o_add_4_OUT> created at line 61.
+    Found 11-bit adder for signal <X[10]_GND_25_o_add_6_OUT> created at line 64.
+    Found 17-bit adder for signal <GND_25_o_PWR_19_o_add_10_OUT> created at line 65.
+    Found 17-bit adder for signal <GND_25_o_PWR_19_o_add_22_OUT> created at line 81.
+    Found 9x8-bit multiplier for signal <n0066> created at line 65.
+    Found 9x8-bit multiplier for signal <n0069> created at line 81.
+    Summary:
+	inferred   2 Multiplier(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred  62 D-type flip-flop(s).
+Unit <FBCtl> synthesized.
+
+Synthesizing Unit <DataGen>.
+    Related source file is "E:\DSD_LAB3\src\DataGen.v".
+    Found 8-bit register for signal <o_y>.
+    Found 1-bit register for signal <o_done>.
+    Found 6-bit register for signal <o_data>.
+    Found 9-bit register for signal <x_min>.
+    Found 9-bit register for signal <x_max>.
+    Found 8-bit register for signal <y_min>.
+    Found 8-bit register for signal <y_max>.
+    Found 31-bit register for signal <color_count>.
+    Found 9-bit register for signal <o_x>.
+    Found 10-bit adder for signal <n0119> created at line 38.
+    Found 9-bit adder for signal <n0121> created at line 40.
+    Found 9-bit adder for signal <x_min[8]_GND_28_o_add_31_OUT> created at line 97.
+    Found 9-bit adder for signal <x_max[8]_GND_28_o_add_32_OUT> created at line 98.
+    Found 8-bit adder for signal <y_min[7]_GND_28_o_add_45_OUT> created at line 114.
+    Found 8-bit adder for signal <y_max[7]_GND_28_o_add_46_OUT> created at line 115.
+    Found 31-bit adder for signal <color_count[30]_GND_28_o_add_60_OUT> created at line 126.
+    Found 9-bit subtractor for signal <GND_28_o_GND_28_o_sub_25_OUT<8:0>> created at line 89.
+    Found 9-bit subtractor for signal <GND_28_o_GND_28_o_sub_26_OUT<8:0>> created at line 90.
+    Found 8-bit subtractor for signal <GND_28_o_GND_28_o_sub_39_OUT<7:0>> created at line 106.
+    Found 8-bit subtractor for signal <GND_28_o_GND_28_o_sub_40_OUT<7:0>> created at line 107.
+    Found 9-bit comparator greater for signal <x_min[8]_o_x[8]_LessThan_15_o> created at line 63
+    Found 9-bit comparator greater for signal <o_x[8]_x_max[8]_LessThan_16_o> created at line 63
+    Found 8-bit comparator greater for signal <y_min[7]_o_y[7]_LessThan_17_o> created at line 63
+    Found 8-bit comparator greater for signal <o_y[7]_y_max[7]_LessThan_18_o> created at line 63
+    Found 9-bit comparator greater for signal <n0027> created at line 87
+    Found 9-bit comparator greater for signal <n0035> created at line 95
+    Found 8-bit comparator greater for signal <n0043> created at line 104
+    Found 8-bit comparator greater for signal <n0051> created at line 112
+    Summary:
+	inferred  11 Adder/Subtractor(s).
+	inferred  89 D-type flip-flop(s).
+	inferred   8 Comparator(s).
+	inferred  11 Multiplexer(s).
+Unit <DataGen> synthesized.
+
+Synthesizing Unit <debouncer>.
+    Related source file is "E:\DSD_LAB3\src\debouncer.v".
+    Found 22-bit register for signal <counter>.
+    Found 22-bit adder for signal <counter[21]_GND_31_o_add_1_OUT> created at line 14.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  22 D-type flip-flop(s).
+Unit <debouncer> synthesized.
+
+Synthesizing Unit <VideoTimingCtl>.
+    Related source file is "E:\DSD_LAB3\src\VideoTimingCtl.vhd".
+    Found 10-bit register for signal <VCnt>.
+    Found 1-bit register for signal <vde>.
+    Found 1-bit register for signal <hs>.
+    Found 1-bit register for signal <vs>.
+    Found 11-bit register for signal <HCnt>.
+    Found 10-bit adder for signal <VCnt[9]_GND_32_o_add_14_OUT> created at line 186.
+    Found 11-bit adder for signal <HCnt[10]_GND_32_o_add_16_OUT> created at line 189.
+    Found 32-bit comparator lessequal for signal <n0019> created at line 193
+    Found 32-bit comparator greater for signal <GND_32_o_GND_32_o_LessThan_23_o> created at line 193
+    Found 31-bit comparator lessequal for signal <n0024> created at line 195
+    Found 31-bit comparator greater for signal <GND_32_o_V_AV_FP_S[30]_LessThan_25_o> created at line 195
+    Found 32-bit comparator greater for signal <GND_32_o_GND_32_o_LessThan_31_o> created at line 205
+    Found 32-bit comparator greater for signal <GND_32_o_GND_32_o_LessThan_33_o> created at line 206
+    Found 31-bit comparator greater for signal <GND_32_o_V_AV[30]_LessThan_34_o> created at line 206
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  24 D-type flip-flop(s).
+	inferred   7 Comparator(s).
+Unit <VideoTimingCtl> synthesized.
+
+Synthesizing Unit <LocalRst>.
+    Related source file is "E:\DSD_LAB3\src\LocalRst.vhd".
+        RESET_PERIOD = 4
+    Found 1-bit register for signal <RstQ<2>>.
+    Found 1-bit register for signal <RstQ<3>>.
+    Found 1-bit register for signal <RstQ<4>>.
+    Found 1-bit register for signal <RstQ<1>>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <LocalRst> synthesized.
+
+Synthesizing Unit <DVITransmitter>.
+    Related source file is "E:\DSD_LAB3\src\DVITransmitter.vhd".
+    Summary:
+	no macro.
+Unit <DVITransmitter> synthesized.
+
+Synthesizing Unit <TMDSEncoder>.
+    Related source file is "E:\DSD_LAB3\src\TMDSEncoder.vhd".
+WARNING:Xst:647 - Input <RST_I> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 5-bit register for signal <n1_d>.
+    Found 8-bit register for signal <d_d>.
+    Found 1-bit register for signal <c0_d>.
+    Found 1-bit register for signal <c1_d>.
+    Found 5-bit register for signal <n1_q_m>.
+    Found 5-bit register for signal <n0_q_m>.
+    Found 9-bit register for signal <q_m_d>.
+    Found 1-bit register for signal <c0_dd>.
+    Found 1-bit register for signal <c1_dd>.
+    Found 1-bit register for signal <de_dd>.
+    Found 5-bit register for signal <cnt_t_1>.
+    Found 10-bit register for signal <q_out_d>.
+    Found 1-bit register for signal <de_d>.
+    Found 5-bit adder for signal <n0210> created at line 59.
+    Found 5-bit adder for signal <n0213> created at line 59.
+    Found 5-bit adder for signal <n0216> created at line 59.
+    Found 5-bit adder for signal <n0219> created at line 59.
+    Found 5-bit adder for signal <n0222> created at line 59.
+    Found 5-bit adder for signal <n0225> created at line 59.
+    Found 5-bit adder for signal <GND_242_o_GND_242_o_add_7_OUT> created at line 59.
+    Found 5-bit adder for signal <n0232> created at line 87.
+    Found 5-bit adder for signal <n0235> created at line 87.
+    Found 5-bit adder for signal <n0238> created at line 87.
+    Found 5-bit adder for signal <n0241> created at line 87.
+    Found 5-bit adder for signal <n0244> created at line 87.
+    Found 5-bit adder for signal <n0247> created at line 87.
+    Found 5-bit adder for signal <int_n1_q_m> created at line 87.
+    Found 5-bit adder for signal <n0253> created at line 122.
+    Found 5-bit adder for signal <cnt_t_1[4]_dc_bias[4]_add_41_OUT> created at line 122.
+    Found 5-bit adder for signal <cnt_t_1[4]_dc_bias[4]_add_45_OUT> created at line 120.
+    Found 5-bit subtractor for signal <GND_242_o_int_n1_q_m[4]_sub_22_OUT<4:0>> created at line 92.
+    Found 5-bit subtractor for signal <dc_bias> created at line 45.
+    Found 5-bit subtractor for signal <cnt_t_1[4]_GND_242_o_sub_39_OUT<4:0>> created at line 123.
+    Found 5-bit subtractor for signal <cnt_t_1[4]_dc_bias[4]_sub_40_OUT<4:0>> created at line 123.
+    Found 5-bit subtractor for signal <cnt_t_1[4]_dc_bias[4]_sub_44_OUT<4:0>> created at line 121.
+    Found 5-bit comparator greater for signal <n1_d[4]_GND_242_o_LessThan_11_o> created at line 81
+    Found 5-bit comparator equal for signal <n1_q_m[4]_n0_q_m[4]_equal_27_o> created at line 100
+    Found 5-bit comparator greater for signal <cnt_t_1[4]_GND_242_o_LessThan_28_o> created at line 102
+    Found 5-bit comparator greater for signal <n1_q_m[4]_n0_q_m[4]_LessThan_29_o> created at line 102
+    Found 5-bit comparator greater for signal <GND_242_o_cnt_t_1[4]_LessThan_30_o> created at line 103
+    Found 5-bit comparator greater for signal <n0_q_m[4]_n1_q_m[4]_LessThan_31_o> created at line 103
+    Summary:
+	inferred  22 Adder/Subtractor(s).
+	inferred  53 D-type flip-flop(s).
+	inferred   6 Comparator(s).
+	inferred  32 Multiplexer(s).
+Unit <TMDSEncoder> synthesized.
+
+Synthesizing Unit <SerializerN_1>.
+    Related source file is "E:\DSD_LAB3\src\SerializerN_1.vhd".
+        N = 10
+    Found 1-bit register for signal <gear>.
+    Found 1-bit register for signal <gear_s>.
+    Found 5-bit register for signal <intDPIn>.
+    Summary:
+	inferred   7 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <SerializerN_1> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 2
+ 9x8-bit multiplier                                    : 2
+# Adders/Subtractors                                   : 89
+ 10-bit adder                                          : 3
+ 11-bit adder                                          : 2
+ 17-bit adder                                          : 2
+ 22-bit adder                                          : 4
+ 31-bit adder                                          : 1
+ 4-bit adder                                           : 1
+ 5-bit adder                                           : 51
+ 5-bit subtractor                                      : 15
+ 8-bit adder                                           : 2
+ 8-bit subtractor                                      : 3
+ 9-bit adder                                           : 3
+ 9-bit subtractor                                      : 2
+# Registers                                            : 119
+ 1-bit register                                        : 62
+ 10-bit register                                       : 6
+ 100-bit register                                      : 1
+ 11-bit register                                       : 2
+ 17-bit register                                       : 2
+ 2-bit register                                        : 9
+ 22-bit register                                       : 4
+ 3-bit register                                        : 1
+ 31-bit register                                       : 1
+ 4-bit register                                        : 1
+ 5-bit register                                        : 16
+ 6-bit register                                        : 2
+ 8-bit register                                        : 6
+ 9-bit register                                        : 6
+# Comparators                                          : 33
+ 31-bit comparator greater                             : 2
+ 31-bit comparator lessequal                           : 1
+ 32-bit comparator greater                             : 3
+ 32-bit comparator lessequal                           : 1
+ 5-bit comparator equal                                : 3
+ 5-bit comparator greater                              : 15
+ 8-bit comparator greater                              : 4
+ 9-bit comparator greater                              : 4
+# Multiplexers                                         : 114
+ 1-bit 2-to-1 multiplexer                              : 79
+ 10-bit 2-to-1 multiplexer                             : 7
+ 5-bit 2-to-1 multiplexer                              : 13
+ 6-bit 2-to-1 multiplexer                              : 1
+ 8-bit 2-to-1 multiplexer                              : 6
+ 9-bit 2-to-1 multiplexer                              : 8
+# FSMs                                                 : 1
+# Xors                                                 : 46
+ 1-bit xor2                                            : 46
+
+=========================================================================
+WARNING:Xst:638 - in unit InputSync Conflict on KEEP property on signal sreg<0> and n0003<1> n0003<1> signal will be lost.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/frame_buffer.ngc>.
+Loading core <frame_buffer> for timing and area information for instance <your_instance_name>.
+INFO:Xst:2261 - The FF/Latch <prevRes_0> in Unit <Inst_SysCon> is equivalent to the following FF/Latch, which will be removed : <prevRes_1> 
+WARNING:Xst:1426 - The value init of the FF/Latch prevRes_2 hinder the constant cleaning in the block Inst_SysCon.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1710 - FF/Latch <d_d_2> (without init value) has a constant value of 0 in block <Inst_TMDSEncoder_blue>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <d_d_1> (without init value) has a constant value of 0 in block <Inst_TMDSEncoder_blue>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <d_d_0> (without init value) has a constant value of 0 in block <Inst_TMDSEncoder_blue>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <c0_d> (without init value) has a constant value of 0 in block <Inst_TMDSEncoder_green>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <d_d_1> (without init value) has a constant value of 0 in block <Inst_TMDSEncoder_green>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <d_d_0> (without init value) has a constant value of 0 in block <Inst_TMDSEncoder_green>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <c1_d> (without init value) has a constant value of 0 in block <Inst_TMDSEncoder_green>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <c0_d> (without init value) has a constant value of 0 in block <Inst_TMDSEncoder_red>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <d_d_2> (without init value) has a constant value of 0 in block <Inst_TMDSEncoder_red>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <d_d_1> (without init value) has a constant value of 0 in block <Inst_TMDSEncoder_red>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <d_d_0> (without init value) has a constant value of 0 in block <Inst_TMDSEncoder_red>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <c1_d> (without init value) has a constant value of 0 in block <Inst_TMDSEncoder_red>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <prevRes_0> has a constant value of 0 in block <Inst_SysCon>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <c1_dd> (without init value) has a constant value of 0 in block <Inst_TMDSEncoder_red>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <c0_dd> (without init value) has a constant value of 0 in block <Inst_TMDSEncoder_red>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <c0_dd> (without init value) has a constant value of 0 in block <Inst_TMDSEncoder_green>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <c1_dd> (without init value) has a constant value of 0 in block <Inst_TMDSEncoder_green>. This FF/Latch will be trimmed during the optimization process.
+
+Synthesizing (advanced) Unit <DataGen>.
+The following registers are absorbed into counter <color_count>: 1 register on signal <color_count>.
+The following registers are absorbed into counter <o_x>: 1 register on signal <o_x>.
+The following registers are absorbed into counter <o_y>: 1 register on signal <o_y>.
+Unit <DataGen> synthesized (advanced).
+
+Synthesizing (advanced) Unit <FBCtl>.
+The following registers are absorbed into counter <X>: 1 register on signal <X>.
+The following registers are absorbed into counter <Y>: 1 register on signal <Y>.
+	Multiplier <Mmult_n0066> in block <FBCtl> and adder/subtractor <Madd_GND_25_o_PWR_19_o_add_10_OUT> in block <FBCtl> are combined into a MAC<Maddsub_n0066>.
+	The following registers are also absorbed by the MAC: <rd_addr> in block <FBCtl>.
+	Multiplier <Mmult_n0069> in block <FBCtl> and adder/subtractor <Madd_GND_25_o_PWR_19_o_add_22_OUT> in block <FBCtl> are combined into a MAC<Maddsub_n0069>.
+	The following registers are also absorbed by the MAC: <wr_addr> in block <FBCtl>.
+Unit <FBCtl> synthesized (advanced).
+
+Synthesizing (advanced) Unit <SysCon>.
+The following registers are absorbed into counter <bitCount>: 1 register on signal <bitCount>.
+Unit <SysCon> synthesized (advanced).
+
+Synthesizing (advanced) Unit <TMDSEncoder>.
+The following registers are absorbed into accumulator <cnt_t_1>: 1 register on signal <cnt_t_1>.
+	The following adders/subtractors are grouped into adder tree <Madd_int_n1_q_m_Madd1> :
+ 	<Madd_n0238_Madd> in block <TMDSEncoder>, 	<Madd_n0244_Madd> in block <TMDSEncoder>, 	<Madd_int_n1_q_m_Madd> in block <TMDSEncoder>.
+	The following adders/subtractors are grouped into adder tree <Madd_GND_242_o_GND_242_o_add_7_OUT_Madd1> :
+ 	<Madd_n0216_Madd> in block <TMDSEncoder>, 	<Madd_n0222_Madd> in block <TMDSEncoder>, 	<Madd_GND_242_o_GND_242_o_add_7_OUT_Madd> in block <TMDSEncoder>.
+Unit <TMDSEncoder> synthesized (advanced).
+
+Synthesizing (advanced) Unit <VideoTimingCtl>.
+The following registers are absorbed into counter <HCnt>: 1 register on signal <HCnt>.
+The following registers are absorbed into counter <VCnt>: 1 register on signal <VCnt>.
+Unit <VideoTimingCtl> synthesized (advanced).
+
+Synthesizing (advanced) Unit <debouncer>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <debouncer> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# MACs                                                 : 2
+ 9x8-to-17-bit MAC                                     : 2
+# Adders/Subtractors                                   : 36
+ 5-bit adder                                           : 12
+ 5-bit subtractor                                      : 15
+ 8-bit adder                                           : 2
+ 8-bit subtractor                                      : 3
+ 9-bit adder                                           : 2
+ 9-bit subtractor                                      : 2
+# Adder Trees                                          : 6
+ 5-bit / 4-inputs adder tree                           : 6
+# Counters                                             : 12
+ 10-bit up counter                                     : 2
+ 11-bit up counter                                     : 2
+ 22-bit up counter                                     : 4
+ 31-bit up counter                                     : 1
+ 4-bit up counter                                      : 1
+ 8-bit modulo-225 up counter                           : 1
+ 9-bit modulo-400 up counter                           : 1
+# Accumulators                                         : 3
+ 5-bit up loadable accumulator                         : 3
+# Registers                                            : 385
+ Flip-Flops                                            : 385
+# Comparators                                          : 33
+ 31-bit comparator greater                             : 2
+ 31-bit comparator lessequal                           : 1
+ 32-bit comparator greater                             : 3
+ 32-bit comparator lessequal                           : 1
+ 5-bit comparator equal                                : 3
+ 5-bit comparator greater                              : 15
+ 8-bit comparator greater                              : 4
+ 9-bit comparator greater                              : 4
+# Multiplexers                                         : 109
+ 1-bit 2-to-1 multiplexer                              : 79
+ 10-bit 2-to-1 multiplexer                             : 7
+ 5-bit 2-to-1 multiplexer                              : 10
+ 6-bit 2-to-1 multiplexer                              : 1
+ 8-bit 2-to-1 multiplexer                              : 5
+ 9-bit 2-to-1 multiplexer                              : 7
+# FSMs                                                 : 1
+# Xors                                                 : 46
+ 1-bit xor2                                            : 46
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1989 - Unit <InputSyncV_1>: instances <gen_bits[7].gen_bit>, <gen_bits[6].gen_bit> of unit <InputSync> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <InputSyncV_1>: instances <gen_bits[7].gen_bit>, <gen_bits[5].gen_bit> of unit <InputSync> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <InputSyncV_1>: instances <gen_bits[7].gen_bit>, <gen_bits[4].gen_bit> of unit <InputSync> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <InputSyncV_1>: instances <gen_bits[7].gen_bit>, <gen_bits[3].gen_bit> of unit <InputSync> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <InputSyncV_1>: instances <gen_bits[7].gen_bit>, <gen_bits[2].gen_bit> of unit <InputSync> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <InputSyncV_1>: instances <gen_bits[7].gen_bit>, <gen_bits[1].gen_bit> of unit <InputSync> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <InputSyncV_1>: instances <gen_bits[7].gen_bit>, <gen_bits[0].gen_bit> of unit <InputSync> are equivalent, second instance is removed
+WARNING:Xst:1426 - The value init of the FF/Latch prevRes_2 hinder the constant cleaning in the block SysCon.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch RSEL_O hinder the constant cleaning in the block SysCon.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1293 - FF/Latch <prevRes_0> has a constant value of 0 in block <SysCon>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <prevRes_1> has a constant value of 0 in block <SysCon>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1303 - From in and out of unit MODE_SYNC, both signals gen_bits[7].gen_bit/n0003<0> and SYNC_SW/gen_bits[7].gen_bit/n0003<0> have a KEEP attribute, signal gen_bits[7].gen_bit/n0003<0> will be lost.
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <Inst_SysCon/FSM_0> on signal <state[1:7]> with one-hot encoding.
+-------------------------
+ State       | Encoding
+-------------------------
+ stidle      | 0000001
+ stprogm     | 0100000
+ stprogmwait | 0000100
+ stprogd     | 0000010
+ stprogdwait | 0010000
+ stgo        | 0001000
+ stwait      | 1000000
+-------------------------
+WARNING:Xst:1710 - FF/Latch <DcmProgReg_7> (without init value) has a constant value of 0 in block <SysCon>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DcmProgReg_8> (without init value) has a constant value of 0 in block <SysCon>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DcmProgReg_9> (without init value) has a constant value of 0 in block <SysCon>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <n1_d_4> (without init value) has a constant value of 0 in block <TMDSEncoder>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <n1_q_m_4> (without init value) has a constant value of 0 in block <TMDSEncoder>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:1901 - Instance Inst_pll_mcb in unit Inst_pll_mcb of type PLL_BASE has been replaced by PLL_ADV
+INFO:Xst:1901 - Instance Inst_10_1_pll in unit Inst_10_1_pll of type PLL_BASE has been replaced by PLL_ADV
+INFO:Xst:2261 - The FF/Latch <n1_q_m_0> in Unit <TMDSEncoder> is equivalent to the following FF/Latch, which will be removed : <n0_q_m_0> 
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <n1_q_m_0> is unconnected in block <TMDSEncoder>.
+
+Optimizing unit <VmodCAM_Ref> ...
+
+Optimizing unit <DataGen> ...
+
+Optimizing unit <SysCon> ...
+
+Optimizing unit <FBCtl> ...
+
+Optimizing unit <VideoTimingCtl> ...
+
+Optimizing unit <TMDSEncoder> ...
+WARNING:Xst:1293 - FF/Latch <cnt_t_1_0> has a constant value of 0 in block <TMDSEncoder>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <SerializerN_1> ...
+WARNING:Xst:1710 - FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_blue/n1_d_3> (without init value) has a constant value of 0 in block <VmodCAM_Ref>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_green/n1_d_3> (without init value) has a constant value of 0 in block <VmodCAM_Ref>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_red/n1_d_3> (without init value) has a constant value of 0 in block <VmodCAM_Ref>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <Inst_SysCon/MODE_SYNC/gen_bits[7].gen_bit/D_O> of sequential type is unconnected in block <VmodCAM_Ref>.
+WARNING:Xst:2677 - Node <Inst_SysCon/SYNC_SW/gen_bits[7].gen_bit/D_O> of sequential type is unconnected in block <VmodCAM_Ref>.
+WARNING:Xst:2677 - Node <Inst_SysCon/RSEL_O> of sequential type is unconnected in block <VmodCAM_Ref>.
+WARNING:Xst:1710 - FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_blue/n0_q_m_4> (without init value) has a constant value of 0 in block <VmodCAM_Ref>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_green/n0_q_m_4> (without init value) has a constant value of 0 in block <VmodCAM_Ref>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_red/n0_q_m_4> (without init value) has a constant value of 0 in block <VmodCAM_Ref>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <Inst_DVITransmitter/Inst_d0_serializer_10_1/gear> in Unit <VmodCAM_Ref> is equivalent to the following 3 FFs/Latches, which will be removed : <Inst_DVITransmitter/Inst_d1_serializer_10_1/gear> <Inst_DVITransmitter/Inst_d2_serializer_10_1/gear> <Inst_DVITransmitter/Inst_clk_serializer_10_1/gear> 
+INFO:Xst:2261 - The FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_blue/n1_d_0> in Unit <VmodCAM_Ref> is equivalent to the following 3 FFs/Latches, which will be removed : <Inst_DVITransmitter/Inst_TMDSEncoder_blue/d_d_7> <Inst_DVITransmitter/Inst_TMDSEncoder_blue/d_d_5> <Inst_DVITransmitter/Inst_TMDSEncoder_blue/d_d_3> 
+INFO:Xst:2261 - The FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_d_6> in Unit <VmodCAM_Ref> is equivalent to the following 2 FFs/Latches, which will be removed : <Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_d_2> <Inst_DVITransmitter/Inst_TMDSEncoder_red/q_m_d_6> 
+INFO:Xst:2261 - The FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_d_7> in Unit <VmodCAM_Ref> is equivalent to the following FF/Latch, which will be removed : <Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_d_3> 
+INFO:Xst:2261 - The FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_blue/de_d> in Unit <VmodCAM_Ref> is equivalent to the following 2 FFs/Latches, which will be removed : <Inst_DVITransmitter/Inst_TMDSEncoder_green/de_d> <Inst_DVITransmitter/Inst_TMDSEncoder_red/de_d> 
+INFO:Xst:2261 - The FF/Latch <Inst_DataGen/y_max_0> in Unit <VmodCAM_Ref> is equivalent to the following FF/Latch, which will be removed : <Inst_DataGen/y_min_0> 
+INFO:Xst:2261 - The FF/Latch <Inst_DataGen/x_max_0> in Unit <VmodCAM_Ref> is equivalent to the following FF/Latch, which will be removed : <Inst_DataGen/x_min_0> 
+INFO:Xst:2261 - The FF/Latch <Inst_DVITransmitter/Inst_clk_serializer_10_1/intDPIn_4> in Unit <VmodCAM_Ref> is equivalent to the following 4 FFs/Latches, which will be removed : <Inst_DVITransmitter/Inst_clk_serializer_10_1/intDPIn_3> <Inst_DVITransmitter/Inst_clk_serializer_10_1/intDPIn_2> <Inst_DVITransmitter/Inst_clk_serializer_10_1/intDPIn_1> <Inst_DVITransmitter/Inst_clk_serializer_10_1/intDPIn_0> 
+INFO:Xst:2261 - The FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_red/q_out_d_6> in Unit <VmodCAM_Ref> is equivalent to the following FF/Latch, which will be removed : <Inst_DVITransmitter/Inst_TMDSEncoder_red/q_out_d_2> 
+INFO:Xst:2261 - The FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_red/q_out_d_7> in Unit <VmodCAM_Ref> is equivalent to the following FF/Latch, which will be removed : <Inst_DVITransmitter/Inst_TMDSEncoder_red/q_out_d_3> 
+INFO:Xst:2261 - The FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_green/d_d_6> in Unit <VmodCAM_Ref> is equivalent to the following 2 FFs/Latches, which will be removed : <Inst_DVITransmitter/Inst_TMDSEncoder_green/d_d_4> <Inst_DVITransmitter/Inst_TMDSEncoder_green/d_d_2> 
+INFO:Xst:2261 - The FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_green/d_d_7> in Unit <VmodCAM_Ref> is equivalent to the following 2 FFs/Latches, which will be removed : <Inst_DVITransmitter/Inst_TMDSEncoder_green/d_d_5> <Inst_DVITransmitter/Inst_TMDSEncoder_green/d_d_3> 
+INFO:Xst:2261 - The FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out_d_6> in Unit <VmodCAM_Ref> is equivalent to the following FF/Latch, which will be removed : <Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out_d_2> 
+INFO:Xst:2261 - The FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out_d_7> in Unit <VmodCAM_Ref> is equivalent to the following FF/Latch, which will be removed : <Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out_d_3> 
+INFO:Xst:2261 - The FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_red/q_m_d_7> in Unit <VmodCAM_Ref> is equivalent to the following FF/Latch, which will be removed : <Inst_DVITransmitter/Inst_TMDSEncoder_red/q_m_d_3> 
+INFO:Xst:2261 - The FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_green/q_m_d_5> in Unit <VmodCAM_Ref> is equivalent to the following FF/Latch, which will be removed : <Inst_DVITransmitter/Inst_TMDSEncoder_green/q_m_d_1> 
+INFO:Xst:2261 - The FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_green/q_m_d_6> in Unit <VmodCAM_Ref> is equivalent to the following FF/Latch, which will be removed : <Inst_DVITransmitter/Inst_TMDSEncoder_green/q_m_d_2> 
+INFO:Xst:2261 - The FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_green/q_m_d_7> in Unit <VmodCAM_Ref> is equivalent to the following FF/Latch, which will be removed : <Inst_DVITransmitter/Inst_TMDSEncoder_green/q_m_d_3> 
+INFO:Xst:2261 - The FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_blue/d_d_2> in Unit <VmodCAM_Ref> is equivalent to the following 11 FFs/Latches, which will be removed : <Inst_DVITransmitter/Inst_TMDSEncoder_blue/d_d_1> <Inst_DVITransmitter/Inst_TMDSEncoder_blue/d_d_0> <Inst_DVITransmitter/Inst_TMDSEncoder_green/c0_d> <Inst_DVITransmitter/Inst_TMDSEncoder_green/d_d_1> <Inst_DVITransmitter/Inst_TMDSEncoder_green/d_d_0> <Inst_DVITransmitter/Inst_TMDSEncoder_green/c1_d> <Inst_DVITransmitter/Inst_TMDSEncoder_red/c0_d> <Inst_DVITransmitter/Inst_TMDSEncoder_red/d_d_2> <Inst_DVITransmitter/Inst_TMDSEncoder_red/d_d_1> <Inst_DVITransmitter/Inst_TMDSEncoder_red/d_d_0> <Inst_DVITransmitter/Inst_TMDSEncoder_red/c1_d> 
+INFO:Xst:2261 - The FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_green/q_out_d_5> in Unit <VmodCAM_Ref> is equivalent to the following FF/Latch, which will be removed : <Inst_DVITransmitter/Inst_TMDSEncoder_green/q_out_d_1> 
+INFO:Xst:2261 - The FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_green/q_out_d_6> in Unit <VmodCAM_Ref> is equivalent to the following FF/Latch, which will be removed : <Inst_DVITransmitter/Inst_TMDSEncoder_green/q_out_d_2> 
+INFO:Xst:2261 - The FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_green/q_out_d_7> in Unit <VmodCAM_Ref> is equivalent to the following FF/Latch, which will be removed : <Inst_DVITransmitter/Inst_TMDSEncoder_green/q_out_d_3> 
+INFO:Xst:2261 - The FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_blue/d_d_6> in Unit <VmodCAM_Ref> is equivalent to the following FF/Latch, which will be removed : <Inst_DVITransmitter/Inst_TMDSEncoder_blue/d_d_4> 
+INFO:Xst:2261 - The FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_blue/de_dd> in Unit <VmodCAM_Ref> is equivalent to the following 2 FFs/Latches, which will be removed : <Inst_DVITransmitter/Inst_TMDSEncoder_green/de_dd> <Inst_DVITransmitter/Inst_TMDSEncoder_red/de_dd> 
+INFO:Xst:2261 - The FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_red/d_d_6> in Unit <VmodCAM_Ref> is equivalent to the following FF/Latch, which will be removed : <Inst_DVITransmitter/Inst_TMDSEncoder_red/d_d_4> 
+INFO:Xst:2261 - The FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_red/n1_d_0> in Unit <VmodCAM_Ref> is equivalent to the following 3 FFs/Latches, which will be removed : <Inst_DVITransmitter/Inst_TMDSEncoder_red/d_d_7> <Inst_DVITransmitter/Inst_TMDSEncoder_red/d_d_5> <Inst_DVITransmitter/Inst_TMDSEncoder_red/d_d_3> 
+INFO:Xst:3203 - The FF/Latch <Inst_DataGen/y_max_1> in Unit <VmodCAM_Ref> is the opposite to the following FF/Latch, which will be removed : <Inst_DataGen/y_min_1> 
+INFO:Xst:3203 - The FF/Latch <Inst_DataGen/x_max_1> in Unit <VmodCAM_Ref> is the opposite to the following FF/Latch, which will be removed : <Inst_DataGen/x_min_1> 
+
+Mapping all equations...
+WARNING:Xst:2677 - Node <Inst_DVITransmitter/Inst_TMDSEncoder_red/q_m_d_2> of sequential type is unconnected in block <VmodCAM_Ref>.
+Building and optimizing final netlist ...
+INFO:Xst:2261 - The FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_d_0> in Unit <VmodCAM_Ref> is equivalent to the following 6 FFs/Latches, which will be removed : <Inst_DVITransmitter/Inst_TMDSEncoder_green/q_m_d_0> <Inst_DVITransmitter/Inst_TMDSEncoder_green/c1_dd> <Inst_DVITransmitter/Inst_TMDSEncoder_green/c0_dd> <Inst_DVITransmitter/Inst_TMDSEncoder_red/q_m_d_0> <Inst_DVITransmitter/Inst_TMDSEncoder_red/c1_dd> <Inst_DVITransmitter/Inst_TMDSEncoder_red/c0_dd> 
+INFO:Xst:2261 - The FF/Latch <Inst_DVITransmitter/Inst_d0_serializer_10_1/gear_s> in Unit <VmodCAM_Ref> is equivalent to the following 3 FFs/Latches, which will be removed : <Inst_DVITransmitter/Inst_d1_serializer_10_1/gear_s> <Inst_DVITransmitter/Inst_d2_serializer_10_1/gear_s> <Inst_DVITransmitter/Inst_clk_serializer_10_1/gear_s> 
+Found area constraint ratio of 100 (+ 5) on block VmodCAM_Ref, actual ratio is 3.
+INFO:Xst:2260 - The FF/Latch <Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_d_6> in Unit <VmodCAM_Ref> is equivalent to the following FF/Latch : <Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_d_0> 
+WARNING:Xst:2957 - There are clock and non-clock loads on clock signal Inst_SysCon/SysConCLK_BUFG. This is not a recommended design practice, that may cause excessive delay, skew or unroutable situations.
+
+Final Macro Processing ...
+
+Processing Unit <VmodCAM_Ref> :
+	Found 97-bit shift register for signal <Inst_SysCon/RstQ_96>.
+	Found 2-bit shift register for signal <Inst_DVITransmitter/Inst_TMDSEncoder_blue/de_dd>.
+	Found 2-bit shift register for signal <Inst_DVITransmitter/Inst_TMDSEncoder_blue/c1_dd>.
+	Found 2-bit shift register for signal <Inst_DVITransmitter/Inst_TMDSEncoder_blue/c0_dd>.
+INFO:Xst:741 - HDL ADVISOR - A 4-bit shift register was found for signal <Inst_VideoTimingCtl/Inst_LocalRst/RstQ_4> and currently occupies 4 logic cells (2 slices). Removing the set/reset logic would take advantage of SRL32 (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+Unit <VmodCAM_Ref> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 374
+ Flip-Flops                                            : 374
+# Shift Registers                                      : 4
+ 2-bit shift register                                  : 3
+ 97-bit shift register                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : VmodCAM_Ref.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1008
+#      GND                         : 2
+#      INV                         : 19
+#      LUT1                        : 154
+#      LUT2                        : 51
+#      LUT3                        : 63
+#      LUT4                        : 116
+#      LUT5                        : 84
+#      LUT6                        : 157
+#      MUXCY                       : 176
+#      MUXF7                       : 6
+#      VCC                         : 2
+#      XORCY                       : 178
+# FlipFlops/Latches                : 382
+#      FD                          : 88
+#      FDC                         : 4
+#      FDE                         : 136
+#      FDP                         : 8
+#      FDR                         : 59
+#      FDRE                        : 58
+#      FDS                         : 15
+#      FDSE                        : 14
+# RAMS                             : 33
+#      RAMB16BWER                  : 33
+# Shift Registers                  : 7
+#      SRL16                       : 1
+#      SRLC16E                     : 3
+#      SRLC32E                     : 3
+# Clock Buffers                    : 7
+#      BUFG                        : 7
+# IO Buffers                       : 18
+#      IBUF                        : 11
+#      IBUFG                       : 1
+#      OBUF                        : 2
+#      OBUFDS                      : 4
+# DCMs                             : 2
+#      DCM_CLKGEN                  : 1
+#      DCM_SP                      : 1
+# DSPs                             : 2
+#      DSP48A1                     : 2
+# Others                           : 12
+#      BUFPLL                      : 1
+#      BUFPLL_MCB                  : 1
+#      OSERDES2                    : 8
+#      PLL_ADV                     : 2
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx45csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             382  out of  54576     0%  
+ Number of Slice LUTs:                  651  out of  27288     2%  
+    Number used as Logic:               644  out of  27288     2%  
+    Number used as Memory:                7  out of   6408     0%  
+       Number used as SRL:                7
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    704
+   Number with an unused Flip Flop:     322  out of    704    45%  
+   Number with an unused LUT:            53  out of    704     7%  
+   Number of fully used LUT-FF pairs:   329  out of    704    46%  
+   Number of unique control sets:        33
+
+IO Utilization: 
+ Number of IOs:                          24
+ Number of bonded IOBs:                  22  out of    218    10%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:               33  out of    116    28%  
+    Number using Block RAM only:         33
+ Number of BUFG/BUFGCTRLs:                7  out of     16    43%  
+ Number of DSP48A1s:                      2  out of     58     3%  
+ Number of PLL_ADVs:                      2  out of      4    50%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Inst_SysCon/Inst_10_1_pll/CLKOUT2  | BUFG                   | 361   |
+i_clk                              | IBUFG+BUFG             | 46    |
+Inst_SysCon/Inst_10_1_pll/CLKOUT3  | BUFG                   | 17    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 6.814ns (Maximum Frequency: 146.759MHz)
+   Minimum input arrival time before clock: 4.483ns
+   Maximum output required time after clock: 3.668ns
+   Maximum combinational path delay: 4.864ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_SysCon/Inst_10_1_pll/CLKOUT2'
+  Clock period: 6.814ns (frequency: 146.759MHz)
+  Total number of paths / destination ports: 11583 / 1654
+-------------------------------------------------------------------------
+Delay:               6.814ns (Levels of Logic = 7)
+  Source:            Inst_DataGen/y_max_1 (FF)
+  Destination:       Inst_DataGen/o_data_5 (FF)
+  Source Clock:      Inst_SysCon/Inst_10_1_pll/CLKOUT2 rising
+  Destination Clock: Inst_SysCon/Inst_10_1_pll/CLKOUT2 rising
+
+  Data Path: Inst_DataGen/y_max_1 to Inst_DataGen/o_data_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDSE:C->Q            15   0.447   1.086  Inst_DataGen/y_max_1 (Inst_DataGen/y_max_1)
+     LUT6:I4->O            1   0.203   0.580  Inst_DataGen/o_y[7]_y_max[7]_LessThan_18_o2 (Inst_DataGen/o_y[7]_y_max[7]_LessThan_18_o1)
+     LUT3:I2->O            1   0.205   0.580  Inst_DataGen/o_y[7]_y_max[7]_LessThan_18_o1_SW2 (N95)
+     LUT5:I4->O            1   0.205   0.580  Inst_DataGen/o_y[7]_y_max[7]_LessThan_18_o1 (Inst_DataGen/o_y[7]_y_max[7]_LessThan_18_o2)
+     LUT5:I4->O            1   0.205   0.684  Inst_DataGen/_n01583 (Inst_DataGen/_n01583)
+     LUT5:I3->O            1   0.203   0.580  Inst_DataGen/_n01584_SW0 (N107)
+     LUT6:I5->O            6   0.205   0.745  Inst_DataGen/_n01584 (Inst_DataGen/_n0158)
+     LUT5:I4->O            1   0.205   0.000  Inst_DataGen/o_data_5_rstpot (Inst_DataGen/o_data_5_rstpot)
+     FD:D                      0.102          Inst_DataGen/o_data_5
+    ----------------------------------------
+    Total                      6.814ns (1.980ns logic, 4.834ns route)
+                                       (29.1% logic, 70.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'i_clk'
+  Clock period: 4.041ns (frequency: 247.451MHz)
+  Total number of paths / destination ports: 338 / 72
+-------------------------------------------------------------------------
+Delay:               4.041ns (Levels of Logic = 2)
+  Source:            Inst_SysCon/state_FSM_FFd7 (FF)
+  Destination:       Inst_SysCon/bitCount_3 (FF)
+  Source Clock:      i_clk rising
+  Destination Clock: i_clk rising
+
+  Data Path: Inst_SysCon/state_FSM_FFd7 to Inst_SysCon/bitCount_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q              8   0.447   0.907  Inst_SysCon/state_FSM_FFd7 (Inst_SysCon/state_FSM_FFd7)
+     LUT4:I2->O            7   0.203   1.138  Inst_SysCon/state_loadRegEn11 (Inst_SysCon/Reset_OR_DriverANDClockEnable)
+     LUT6:I0->O            5   0.203   0.714  Inst_SysCon/DcmProgReg[9]_loadReg[9]_mux_16_OUT<6>11 (Inst_SysCon/DcmProgReg[9]_loadReg[9]_mux_16_OUT<6>1)
+     FDRE:R                    0.430          Inst_SysCon/bitCount_0
+    ----------------------------------------
+    Total                      4.041ns (1.283ns logic, 2.758ns route)
+                                       (31.7% logic, 68.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_SysCon/Inst_10_1_pll/CLKOUT3'
+  Clock period: 1.861ns (frequency: 537.389MHz)
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Delay:               1.861ns (Levels of Logic = 1)
+  Source:            Inst_DVITransmitter/Inst_d0_serializer_10_1/gear_s (FF)
+  Destination:       Inst_DVITransmitter/Inst_d0_serializer_10_1/intDPIn_4 (FF)
+  Source Clock:      Inst_SysCon/Inst_10_1_pll/CLKOUT3 rising
+  Destination Clock: Inst_SysCon/Inst_10_1_pll/CLKOUT3 rising
+
+  Data Path: Inst_DVITransmitter/Inst_d0_serializer_10_1/gear_s to Inst_DVITransmitter/Inst_d0_serializer_10_1/intDPIn_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              16   0.447   1.109  Inst_DVITransmitter/Inst_d0_serializer_10_1/gear_s (Inst_DVITransmitter/Inst_d0_serializer_10_1/gear_s)
+     LUT4:I2->O            1   0.203   0.000  Inst_DVITransmitter/Inst_d0_serializer_10_1/Mmux_DP_I[9]_DP_I[4]_mux_0_OUT11 (Inst_DVITransmitter/Inst_d0_serializer_10_1/DP_I[9]_DP_I[4]_mux_0_OUT<0>)
+     FD:D                      0.102          Inst_DVITransmitter/Inst_d0_serializer_10_1/intDPIn_0
+    ----------------------------------------
+    Total                      1.861ns (0.752ns logic, 1.109ns route)
+                                       (40.4% logic, 59.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_SysCon/Inst_10_1_pll/CLKOUT2'
+  Total number of paths / destination ports: 220 / 203
+-------------------------------------------------------------------------
+Offset:              4.483ns (Levels of Logic = 2)
+  Source:            i_reset (PAD)
+  Destination:       Inst_DataGen/o_x_8 (FF)
+  Destination Clock: Inst_SysCon/Inst_10_1_pll/CLKOUT2 rising
+
+  Data Path: i_reset to Inst_DataGen/o_x_8
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            19   1.222   1.071  i_reset_IBUF (Inst_FBCtl/i_rst_inv)
+     INV:I->O             51   0.206   1.554  FbRdRst1_INV_0 (FbRdRst)
+     FDSE:S                    0.430          Inst_DataGen/x_min_2
+    ----------------------------------------
+    Total                      4.483ns (1.858ns logic, 2.625ns route)
+                                       (41.4% logic, 58.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'i_clk'
+  Total number of paths / destination ports: 82 / 42
+-------------------------------------------------------------------------
+Offset:              4.481ns (Levels of Logic = 3)
+  Source:            i_reset (PAD)
+  Destination:       Inst_SysCon/RstQ_99 (FF)
+  Destination Clock: i_clk rising
+
+  Data Path: i_reset to Inst_SysCon/RstQ_99
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            19   1.222   1.072  i_reset_IBUF (Inst_FBCtl/i_rst_inv)
+     LUT6:I5->O            1   0.205   0.684  Inst_SysCon/RstDbnc_RstQ[99]_OR_1_o_SW0 (N40)
+     LUT6:I4->O            7   0.203   0.773  Inst_SysCon/RstDbnc_RstQ[99]_OR_1_o (Inst_SysCon/RstDbnc_RstQ[99]_OR_1_o)
+     FDE:CE                    0.322          Inst_SysCon/RstQ_97
+    ----------------------------------------
+    Total                      4.481ns (1.952ns logic, 2.529ns route)
+                                       (43.6% logic, 56.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_SysCon/Inst_10_1_pll/CLKOUT2'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.668ns (Levels of Logic = 1)
+  Source:            Inst_DataGen/o_done (FF)
+  Destination:       o_led<0> (PAD)
+  Source Clock:      Inst_SysCon/Inst_10_1_pll/CLKOUT2 rising
+
+  Data Path: Inst_DataGen/o_done to o_led<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.447   0.650  Inst_DataGen/o_done (Inst_DataGen/o_done)
+     OBUF:I->O                 2.571          o_led_0_OBUF (o_led<0>)
+    ----------------------------------------
+    Total                      3.668ns (3.018ns logic, 0.650ns route)
+                                       (82.3% logic, 17.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'i_clk'
+  Total number of paths / destination ports: 8 / 3
+-------------------------------------------------------------------------
+Offset:              3.029ns (Levels of Logic = 1)
+  Source:            Inst_SysCon/SRL16_inst (FF)
+  Destination:       Inst_SysCon/Inst_dcm_recfg/dcm_clkgen_inst:RST (PAD)
+  Source Clock:      i_clk rising
+
+  Data Path: Inst_SysCon/SRL16_inst to Inst_SysCon/Inst_dcm_recfg/dcm_clkgen_inst:RST
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SRL16:CLK->Q          1   1.313   0.684  Inst_SysCon/SRL16_inst (Inst_SysCon/Start_Up_Rst)
+     LUT4:I2->O            9   0.203   0.829  Inst_SysCon/DcmRst1 (Inst_SysCon/DcmRst)
+    DCM_CLKGEN:RST             0.000          Inst_SysCon/Inst_dcm_recfg/dcm_clkgen_inst
+    ----------------------------------------
+    Total                      3.029ns (1.516ns logic, 1.513ns route)
+                                       (50.1% logic, 49.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_SysCon/Inst_10_1_pll/CLKOUT3'
+  Total number of paths / destination ports: 20 / 20
+-------------------------------------------------------------------------
+Offset:              1.161ns (Levels of Logic = 0)
+  Source:            Inst_DVITransmitter/Inst_clk_serializer_10_1/intDPIn_4 (FF)
+  Destination:       Inst_DVITransmitter/Inst_clk_serializer_10_1/oserdes_s:D2 (PAD)
+  Source Clock:      Inst_SysCon/Inst_10_1_pll/CLKOUT3 rising
+
+  Data Path: Inst_DVITransmitter/Inst_clk_serializer_10_1/intDPIn_4 to Inst_DVITransmitter/Inst_clk_serializer_10_1/oserdes_s:D2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               5   0.447   0.714  Inst_DVITransmitter/Inst_clk_serializer_10_1/intDPIn_4 (Inst_DVITransmitter/Inst_clk_serializer_10_1/intDPIn_4)
+    OSERDES2:D1                0.000          Inst_DVITransmitter/Inst_clk_serializer_10_1/oserdes_s
+    ----------------------------------------
+    Total                      1.161ns (0.447ns logic, 0.714ns route)
+                                       (38.5% logic, 61.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 42 / 42
+-------------------------------------------------------------------------
+Delay:               4.864ns (Levels of Logic = 2)
+  Source:            i_reset (PAD)
+  Destination:       o_led<1> (PAD)
+
+  Data Path: i_reset to o_led<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            19   1.222   1.071  i_reset_IBUF (Inst_FBCtl/i_rst_inv)
+     OBUF:I->O                 2.571          o_led_1_OBUF (o_led<1>)
+    ----------------------------------------
+    Total                      4.864ns (3.793ns logic, 1.071ns route)
+                                       (78.0% logic, 22.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Inst_SysCon/Inst_10_1_pll/CLKOUT2
+---------------------------------+---------+---------+---------+---------+
+                                 | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                     |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------------------+---------+---------+---------+---------+
+Inst_SysCon/Inst_10_1_pll/CLKOUT2|    6.814|         |         |         |
+---------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock Inst_SysCon/Inst_10_1_pll/CLKOUT3
+---------------------------------+---------+---------+---------+---------+
+                                 | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                     |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------------------+---------+---------+---------+---------+
+Inst_SysCon/Inst_10_1_pll/CLKOUT2|    2.032|         |         |         |
+Inst_SysCon/Inst_10_1_pll/CLKOUT3|    1.861|         |         |         |
+---------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock i_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+i_clk          |    4.041|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 11.16 secs
+ 
+--> 
+
+Total memory usage is 286332 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   76 (   0 filtered)
+Number of infos    :   53 (   0 filtered)
+

@@ -1,0 +1,3 @@
+verilog work "dff_mod.v"
+verilog work "dff_modtb.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

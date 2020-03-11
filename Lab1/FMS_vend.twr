@@ -1,0 +1,76 @@
+--------------------------------------------------------------------------------
+Release 14.4 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml FMS_vend.twx FMS_vend.ncd -o FMS_vend.twr FMS_vend.pcf
+
+Design file:              FMS_vend.ncd
+Physical constraint file: FMS_vend.pcf
+Device,package,speed:     xc6slx45,csg324,C,-3 (PRODUCTION 1.23 2012-12-04)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+c50         |    0.212(R)|      FAST  |    0.675(R)|      SLOW  |clk_BUFGP         |   0.000|
+cancel      |    0.299(R)|      FAST  |    0.726(R)|      SLOW  |clk_BUFGP         |   0.000|
+d1          |    0.324(R)|      FAST  |    0.536(R)|      SLOW  |clk_BUFGP         |   0.000|
+rst         |    0.673(R)|      FAST  |    0.577(R)|      SLOW  |clk_BUFGP         |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+dispense    |         8.004(R)|      SLOW  |         4.253(R)|      FAST  |clk_BUFGP         |   0.000|
+insert_coin |         7.825(R)|      SLOW  |         4.175(R)|      FAST  |clk_BUFGP         |   0.000|
+money_return|         7.833(R)|      SLOW  |         4.166(R)|      FAST  |clk_BUFGP         |   0.000|
+st<0>       |         7.344(R)|      SLOW  |         3.913(R)|      FAST  |clk_BUFGP         |   0.000|
+st<1>       |         7.213(R)|      SLOW  |         3.834(R)|      FAST  |clk_BUFGP         |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    1.241|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Wed Jan 22 14:39:29 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 261 MB
+
+
+

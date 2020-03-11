@@ -1,0 +1,12 @@
+ISim log file
+Running: E:\Lab1\FMS_vend_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/Lab1/FMS_vend_tb_isim_beh.wdb 
+ISim P.49d (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 340 ns : File "E:/Lab1/FMS_vend_tb.v" Line 86
+# run 1000ns

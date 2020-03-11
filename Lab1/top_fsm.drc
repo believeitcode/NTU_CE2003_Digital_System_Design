@@ -1,0 +1,8 @@
+Release 14.4 Drc P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Wed Jan 22 16:00:44 2020
+
+drc -z top_FSM.ncd top_FSM.pcf
+
+DRC detected 0 errors and 0 warnings.

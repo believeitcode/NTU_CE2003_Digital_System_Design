@@ -1,0 +1,4 @@
+verilog work "sevenseg.v"
+verilog work "FMS_vend.v"
+verilog work "clkgen.v"
+verilog work "top_FSM.v"
